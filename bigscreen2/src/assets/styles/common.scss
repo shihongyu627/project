@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'DIGITALDREAMFAT';
+    /*src: url('./fonts/DIGITALDREAMFAT.eot');*/
+    /*src: url('./fonts/DIGITALDREAMFAT.eot') format('embedded-opentype'),*/
+    src: url('./fonts/DIGITALDREAMFAT.woff2') format('woff2'),
+    url('./fonts/DIGITALDREAMFAT.woff') format('woff'),
+    url('./fonts/DIGITALDREAMFAT.ttf') format('truetype');
+    /*url('./fonts/DIGITALDREAMFAT.svg#DIGITALDREAMFAT') format('svg');*/
+}
+@font-face {
+    font-family: 'bigscreen';
+    src: url('./fonts/bigscreen.TTF') format('truetype')
+}

@@ -1,0 +1,68 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-03-03 18:29:28
+ * @LastEditTime: 2020-03-19 15:41:32
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /sunsea-master/src/components/Screenfull/index.vue
+ -->
+<template>
+  <div>
+    <svg-icon :icon-class="isFullscreen?'exit-fullscreen':'icon-fullscreen'" @click="click" />
+  </div>
+</template>
+
+<script>
+import screenfull from 'screenfull'
+
+export default {
+  name: 'Screenfull',
+  data() {
+    return {
+      isFullscreen: false
+    }
+  },
+  mounted() {
+    this.init()
+  },
+  beforeDestroy() {
+    this.destroy()
+  },
+  methods: {
+    click() {
+      if (!screenfull.enabled) {
+        this.$message({
+          message: 'you browser can not work',
+          type: 'warning'
+        })
+        return false
+      }
+      screenfull.toggle()
+    },
+    change() {
+      this.isFullscreen = screenfull.isFullscreen
+    },
+    init() {
+      if (screenfull.enabled) {
+        screenfull.on('change', this.change)
+      }
+    },
+    destroy() {
+      if (screenfull.enabled) {
+        screenfull.off('change', this.change)
+      }
+    }
+  }
+}
+</script>
+
+<style scoped>
+.screenfull-svg {
+  display: inline-block;
+  cursor: pointer;
+  fill: #5a5e66;;
+  width: 20px;
+  height: 20px;
+  vertical-align: 10px;
+}
+</style>

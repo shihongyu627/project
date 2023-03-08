@@ -1,0 +1,82 @@
+.el-menu--horizontal .el-menu-item {
+    float: left;
+    height: 59px;
+    line-height: 58px;
+    margin: 0;
+    border-bottom: 2px solid transparent;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    color: #909399;
+}
+.el-submenu__icon-arrow {
+    position: static;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: -3px;
+}
+    
+.el-menu--horizontal .el-submenu.is-active .el-submenu__title {
+    height: 59px;
+    line-height: 59px;
+    border-bottom: 2px solid #409EFF;
+    color: #303133;
+}
+/* 水平样式 */
+.el-menu--horizontal>div>.el-submenu {
+    float: left;
+}
+#app{
+    .hideSidebar {
+        .sidebar-container {
+          width: 0px !important;
+        }
+    
+        .main-container {
+          margin-left: 0px;
+        }
+    
+        .submenu-title-noDropdown {
+          padding: 0 !important;
+          position: relative;
+    
+          .el-tooltip {
+            padding: 0 !important;
+    
+            .svg-icon {
+              margin-left: 20px;
+            }
+          }
+        }
+    
+        .el-submenu {
+          overflow: hidden;
+    
+          &>.el-submenu__title {
+            padding: 0 !important;
+    
+            .svg-icon {
+              margin-left: 20px;
+            }
+    
+            .el-submenu__icon-arrow {
+              display: none;
+            }
+          }
+        }
+    
+        .el-menu--collapse {
+          .el-submenu {
+            &>.el-submenu__title {
+              &>span {
+                height: 0;
+                width: 0;
+                overflow: hidden;
+                visibility: hidden;
+                display: inline-block;
+              }
+            }
+          }
+        }
+    }
+}
