@@ -1,0 +1,160 @@
+import { BaseEdit } from '@/components/base';
+// import { findIndexItems } from '@kafudev/ui-kit';
+import { utils as formUtils } from '@/components/form';
+import { pjTenantadd, pjTenantqueryById, pjTenantedit } from '@/services/ant-design-pro/tenant';
+import { page } from '@/utils';
+import React from 'react';
+
+const Page: React.FC<any> = (props) => {
+  const [formLayoutType, setFormLayoutType] = React.useState<'horizontal' | 'vertical' | 'inline'>(
+    'horizontal',
+  );
+  const [rowCol, setRowCol] = React.useState<number>(1);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [forms, setForms] = React.useState<any>({});
+  const [items, setItems] = React.useState<any>([
+    { label: '基本信息', desc: '表单的基本信息', type: 'header' },
+    {
+      label: '租户名称',
+      name: 'name',
+      type: 'input',
+      width: 'md',
+      placeholder: '请输入租户名称',
+      rules: [{ required: true, trigger: 'blur' }],
+    },
+    {
+      label: '剩余识别数',
+      name: 'scanNum',
+      type: 'digit',
+      fieldProps: {
+        min: -100,
+      },
+      placeholder: '请输入剩余识别数',
+    },
+    // {
+    //   label: '发票识别数',
+    //   name: 'invoiceNum',
+    //   type: 'digit',
+    //   fieldProps: {
+    //     min: -100,
+    //   },
+    //   placeholder: '请输入发票识别数',
+    //   // fieldProps: { maxLength: 100 },
+    //   // rules: [{ type: 'string', max: 100, message: '超过最大长度' }],
+    // },
+  ]);
+
+  React.useEffect(() => {
+    console.log('query', props?.location?.query);
+  }, []);
+
+  const initItems = (values: any) => {
+    // if (props.action === 'add') {
+    //   values[3].rules = [{ required: true, trigger: 'blur' }];
+    // }
+    if (props.action === 'edit') {
+      // values[3].disabled = true;
+      values[2].disabled = true;
+    }
+    // setItems(values);
+  };
+
+  const initForms = async (values: any) => {
+    console.log('initForms:', values);
+    if (props.action === 'edit') {
+      const result: any = await pjTenantqueryById(props.id);
+      const formresult = result?.result || {};
+      setForms(formresult);
+    }
+  };
+
+  // 表单提交
+  const onSubmits = async (value: any) => {
+    if (props.action === 'edit') {
+      const res: any = await pjTenantedit(value);
+      if (res.code == 200) {
+        page.closeModal();
+        setTimeout(() => {
+          history.go(0);
+        }, 200);
+      }
+    }
+    if (props.action === 'add') {
+      const res: any = await pjTenantadd(value);
+      if (res.code == 200) {
+        page.closeModal();
+        setTimeout(() => {
+          history.go(0);
+        }, 200);
+      }
+    }
+  };
+  // 表单字段变化
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const changeForms = (changedValues: any, values: any) => {
+    // console.log('changeForms:', changedValues, values);
+    for (const key in changedValues) {
+      if (Object.prototype.hasOwnProperty.call(changedValues, key)) {
+        const value = changedValues[key];
+        switch (key) {
+          case 'type':
+            setFormLayoutType(value);
+            break;
+          case 'rowCol':
+            setRowCol(rowCol == 1 ? 2 : 1);
+            break;
+          case 'listtype':
+            if (value == true) {
+              items[formUtils.findIndexItems('list', items)].showType = 'card';
+              setItems([...items]);
+            } else {
+              items[formUtils.findIndexItems('list', items)].showType = '';
+              setItems([...items]);
+            }
+            break;
+          case 'status':
+            if (value == true) {
+              items[formUtils.findIndexItems('extra', items)].type = 'empty';
+              setItems([...items]);
+            } else {
+              items[formUtils.findIndexItems('extra', items)].type = 'input';
+              setItems([...items]);
+            }
+            break;
+          default:
+            break;
+        }
+      }
+    }
+  };
+  //路由校验及获取
+  const urlDatas = `${localStorage.getItem('auths')}`;
+  const urlData = JSON.parse(urlDatas);
+  const check = (url: any) => {
+    if (!urlData) {
+      return false;
+    }
+    return urlData.some((item: any) => item.url == url);
+  };
+
+  return (
+    <BaseEdit
+      mode={props.mode}
+      rowCol={rowCol}
+      fixedSubmit={props.fixedSubmit}
+      submitter={check('/ticket/tenant/edit/commit') === false ? false : true}
+      submitTarget={props.submitTarget}
+      getSubmitDom={props.getSubmitDom}
+      formLayoutType={formLayoutType}
+      action={props.action || props?.location?.query?.action}
+      items={items}
+      forms={forms}
+      initItems={initItems}
+      initForms={initForms}
+      changeForms={changeForms}
+      onSubmits={onSubmits}
+    />
+  );
+};
+
+export default Page;

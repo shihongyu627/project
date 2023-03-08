@@ -1,0 +1,117 @@
+@import '~antd/es/style/variable.less';
+@import '~antd/dist/antd.css';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+.ant-anchor-link-title {
+  color: #999 !important;
+}
+.ant-pro-form-login-main {
+  margin: 23px auto !important;
+}
+.ant-pro-global-footer-copyright {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+.ant-upload-list-picture-container {
+  margin-right: 3vw;
+}
+.ant-pro-top-nav-header-logo h1 {
+  font-size: 14px;
+}
+.ant-pro-form-login-title {
+  position: relative;
+  font-size: 28px !important;
+}
+.ant-pro-form-login-header {
+  justify-content: left !important;
+}
+.ant-pro-form-login-top {
+  text-align: left !important;
+}
+.ant-pro-form-login-desc {
+  font-size: 18px !important;
+}
+.ant-layout {
+  min-height: 100vh;
+}
+.ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+  left: unset;
+}
+.ant-pro-setting-drawer-handle {
+  display: none;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// Compatible with IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}
+
+.expanded-row-class-name td {
+  background-color: #fff !important;
+}
+.expanded-row-class-name-hover td {
+  background-color: #fafafa !important;
+}
+
+.table-row-ff {
+  background-color: #fff;
+  .ant-table-cell-fix-left,
+  .ant-table-cell-fix-right {
+    background-color: #fff;
+  }
+}
+
+.table-row-fa {
+  background-color: #fafafa;
+  .ant-table-cell-fix-left,
+  .ant-table-cell-fix-right {
+    background-color: #fafafa;
+  }
+}
