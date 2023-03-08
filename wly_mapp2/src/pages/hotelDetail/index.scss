@@ -1,0 +1,57 @@
+.hotel-detail {
+  .hotel-detail-image {
+    width: 750px;
+    height: 593px;
+  }
+  .hotel-detail-card {
+    width: 710px;
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    height: 339px;
+    background: #FFFFFF;
+    margin: -260px 20px 30px;
+    position: relative;
+    z-index: 10;
+    .hotel-title {
+      font-size: 36px;
+      font-weight: 500;
+      color: #333333;
+      line-height: 50px;
+      margin-bottom: 15px;
+    }
+    .hotel-share {
+      font-size: 24px;
+      font-weight: 400;
+      color: #AAAAAA;
+      line-height: 33px;
+    }
+    .hotel-detail-info-card {
+      width: 173px;
+      height: 154px;
+      background: #F8F7FC;
+      border-radius: 15px;
+      margin-right: 20px;
+    }
+    .hotel-detail-info-card-b {
+      width: 477px;
+      height: 154px;
+      background: #F8F7FC;
+      border-radius: 15px;
+      padding: 11px 24px;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+  }
+  .hotel-info-card {
+    width: 710px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 30px 20px;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+  .hotel-time-reset {
+    margin: 0;
+  }
+}

@@ -1,0 +1,131 @@
+@import "@styles/theme.scss";
+
+.visitorCreate {
+  background: #f4f4f4;
+  height: 100%;
+  position: relative;
+  &-header {
+    width: 100%;
+    height: 393px;
+    position: relative;
+    &-img {
+      width: 100%;
+      height: 393px;
+    }
+    &-content {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      // z-index: 10;
+    }
+  }
+  &-br {
+    height: 20px;
+  }
+  &-box {
+    border-radius: 20px;
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: -190px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 100;
+    &-title {
+      font-weight: bold;
+      color: #2a3549;
+    }
+    &-item {
+      width: 644px;
+      margin: 0 auto;
+      height: 124px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      @include border(top, 2px, solid, #f5f5f5);
+      background: #fff;
+      &-title {
+        color: #000000;
+        font-size: 30px;
+      }
+      &-text {
+        color: #000000;
+        font-size: 30px;
+      }
+      &-texts {
+        font-size: 30px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #a2a2a2;
+        opacity: 1;
+      }
+    }
+    &-items {
+      width: 644px;
+      margin: 0 auto;
+      height: 84px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+      @include border(top, 2px, solid, #f5f5f5);
+      background: #fff;
+      &-title {
+        color: #15110e;
+        font-size: 30px;
+        // font-weight: bold;
+      }
+    }
+    &-Textarea {
+      width: 644px;
+      margin: 0 auto;
+      background: #fff;
+      min-height: 190px;
+      margin-top: 10px;
+      top: 0;
+      z-index: 999;
+      padding: 20px;
+      /*  #ifdef  rn  */
+      padding-top: 0;
+      /*  #endif  */
+      border-radius: 20px;
+    }
+    &-Textareas {
+      width: 100%;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      margin-top: 10px;
+      top: 0;
+      z-index: 999;
+      position: absolute;
+    }
+    &-imageBox {
+      width: 644px;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      &-title {
+        font-size: 22px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #969799;
+        opacity: 0.6;
+        margin-top: 24px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  &-bottomBr {
+    height: 190px;
+  }
+}
+.bottomBr {
+  height: 190px;
+}
+.bottomBrs {
+  height: 100%;
+}

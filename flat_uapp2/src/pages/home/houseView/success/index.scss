@@ -1,0 +1,101 @@
+@import "@styles/theme.scss";
+
+.houseSuccess {
+  background: #5866a8;
+  height: 100%;
+  position: relative;
+  &-header {
+    width: 100%;
+    height: 393px;
+    position: relative;
+    &-img {
+      width: 100%;
+      height: 393px;
+    }
+    &-content {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      // z-index: 10;
+    }
+  }
+  &-contentbox {
+    width: 668px;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    &-bgPng {
+      width: 100%;
+      height: 990px;
+    }
+    &-infoBox {
+      width: 100%;
+      height: 1042px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &-icon {
+        width: 198px;
+        height: 156px;
+        margin-right: 50px;
+        margin-top: 60px;
+      }
+      &-title {
+        font-size: 36px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #2a3549;
+        opacity: 1;
+        margin-top: 20px;
+      }
+      &-text {
+        font-size: 28px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #2a3549;
+        opacity: 0.8;
+        margin-top: 5px;
+      }
+      &-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 60px;
+        &-item {
+          width: 580px;
+          margin: 0 auto;
+          margin-top: 42px;
+          &-title {
+            font-size: 28px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            color: #aaaaaa;
+            opacity: 1;
+          }
+          &-text {
+            font-size: 28px;
+            font-family: PingFang SC;
+            font-weight: bold;
+            color: #000000;
+            opacity: 1;
+            margin-top: 10px;
+          }
+        }
+        &-items{
+          margin-top: 76px;
+        }
+      }
+    }
+  }
+}

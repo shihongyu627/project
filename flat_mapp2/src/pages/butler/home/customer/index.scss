@@ -1,0 +1,46 @@
+.TakeLookBox{
+  height: 100%;
+  &-headerTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    &-item {
+      height: 60px;
+      font-size: 28px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      line-height: 60px;
+      color: #747474;
+      opacity: 1;
+      width: 150px;
+      text-align: center;
+      position: relative;
+      &-img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 24px;
+        height: 24px;
+      }
+    }
+    &-items {
+      font-size: 32px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: #5f411b;
+      opacity: 1;
+    }
+  }
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 20PX;
+  }
+  &-bottomBr {
+    height:50px;
+  }
+}

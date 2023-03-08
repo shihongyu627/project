@@ -1,0 +1,23 @@
+.success-box {
+  background-color: #FFFFFF;
+  align-items: center;
+  .success-icon {
+    font-size: 150px;
+    line-height: 150px;
+    margin-top: 30px;
+  }
+  .success-title {
+    font-size: 34px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 48px;
+    margin: 30px 0;
+  }
+  .success-tip {
+    font-size: 26px;
+    font-weight: 400;
+    color: #AAAAAA;
+    line-height: 37px;
+    margin-bottom: 5px;
+  }
+}

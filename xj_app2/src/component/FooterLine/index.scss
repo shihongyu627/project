@@ -1,0 +1,29 @@
+.FooterLine {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+  padding-bottom: 60px;
+  &-title {
+    font-size: 32px;
+    color: #999;
+  }
+  &-left {
+    width: 68px;
+    height: 2px;
+    background: #afafaf;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+    margin-right: 20px;
+  }
+  &-right {
+    width: 68px;
+    height: 2px;
+    background: #afafaf;
+    border-radius: 0px 0px 0px 0px;
+    opacity: 1;
+    margin-left: 20px;
+  }
+}

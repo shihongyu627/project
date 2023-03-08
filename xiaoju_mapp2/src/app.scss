@@ -1,0 +1,27 @@
+/* 改变主题变量，具体变量名可查看 taro-ui/dist/style/variables/default.scss 文件 */
+@import "./style/theme.scss";
+$color-brand: $theme-color;
+$color-brand-light: $theme-color;
+/* 引入 Taro UI 默认样式 */
+@import "~taro-ui/dist/style/index.scss";
+body{
+  background-color: #f5f5f5;
+}
+page{
+  background-color: #f5f5f5;
+}
+
+.at-card-content{
+  padding: 0 0 0.512rem 0;
+}
+
+.at-tabs__header{
+  position: fixed;
+  z-index: 200;
+}
+.at-list__item-content{
+  margin-right:0;
+}
+.at-card__content{
+  padding:0;
+}

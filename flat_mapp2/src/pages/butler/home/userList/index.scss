@@ -1,0 +1,41 @@
+.houseSelect {
+  background: #f4f4f4;
+  height: 100%;
+  &-header {
+    width: 710px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    &-housePng {
+      width: 40px;
+      height: 40px;
+    }
+    &-selectName {
+      color: #6f5324;
+      font-size: 28px;
+      width: 640px;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: row;
+    }
+    &-selectNames{
+      margin-right: 20px;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  &-bottomBr {
+    padding-bottom: 160px;
+    /*  #ifndef  rn  */
+    padding-bottom: 20px;
+    /*  #endif  */
+  }
+}

@@ -1,0 +1,92 @@
+@import "@styles/theme.scss";
+
+.propertyCreate {
+  background: #f4f4f4;
+  height: 100%;
+  position: relative;
+  &-br {
+    height: 32px;
+  }
+  &-box {
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  &-imageBox {
+    width: 644px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    &-imageItem{
+      width: 134px;
+      height: 134px;
+      background: #F2F2F2;
+      opacity: 1;
+      border-radius: 4px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    &-title {
+      width: 644px;
+      margin: 0 auto;
+      font-size: 36px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #2a3549;
+      opacity: 1;
+      margin-bottom: 30px;
+    }
+  }
+  &-selectBox {
+    width: 710px;
+    height: 124px;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    &-left {
+      font-size: 30px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #2a3549;
+      opacity: 1;
+    }
+    &-right {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &-text {
+        font-size: 30px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #a2a2a2;
+        opacity: 1;
+      }
+      &-img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+.bottomBr {
+  height: 190px;
+}
+.bottomBrs {
+  height: 100%;
+}

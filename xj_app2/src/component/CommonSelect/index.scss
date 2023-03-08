@@ -1,0 +1,45 @@
+.SelectType_modal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.DatepickerRn_list_l {
+  color: #000000;
+  font-size: 30px;
+}
+.DatepickerRn_list_r {
+  flex-direction: row;
+  align-items: center;
+}
+.DatepickerRn_list_r_txt {
+  color: #000000;
+  font-size: 30px;
+}
+.DatepickerRn_boxHeader {
+  width: 100%;
+  height: 80px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.DatepickerRn_boxTitle {
+  flex: 3;
+  color: #333;
+  font-size: 30px;
+  text-align: center;
+}
+.DatepickerRn_boxBtn {
+  flex: 1;
+  font-size: 30px;
+}
+.SelectType_text{
+  color: #000000;
+  font-size: 30px;
+}
+.SelectType_texts{
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #a2a2a2;
+  opacity: 1;
+}

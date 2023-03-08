@@ -1,0 +1,32 @@
+.mine-image {
+  width: 750px;
+  height: 462px;
+}
+.mine-info {
+  position: absolute;
+  top: 149px;
+  padding: 0 20px;
+  .user-info {
+    box-sizing: border-box;
+    width: 710px;
+    height: 164px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 0 30px;
+    .user-info-name {
+      font-size: 34px;
+      font-weight: 500;
+      color: #333333;
+      line-height: 48px;
+      margin-left: 30px;
+    }
+  }
+  .list-guide {
+    width: 710px;
+    height: 203px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 0px #DCDCDC;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+}

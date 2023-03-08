@@ -1,0 +1,15 @@
+.hotel-search-card {
+  box-sizing: border-box;
+  width: 710px;
+  height: 412px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 45px 0 30px;
+  margin: -253px auto 30px;
+  position: relative;
+  z-index: 2;
+  .hotel-search-card-place {
+    height: 68px;
+    margin: 0 62px;
+  }
+}

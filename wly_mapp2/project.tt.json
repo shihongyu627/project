@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "puyuan-h5",
+  "appid": "touristappid",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}

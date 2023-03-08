@@ -1,0 +1,80 @@
+@import "@styles/theme.scss";
+page {
+  background: #f7f7f7;
+}
+.projectRecord {
+  width: 100%;
+  position: relative;
+  background: #f7f7f7;
+  height: 100%;
+  &-header {
+    width: 100%;
+    height: 88px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2px;
+    &-item {
+      width: 127px;
+      height: 52px;
+      border-radius: 26px;
+      font-size: 28px;
+      color: #333333;
+      text-align: center;
+      line-height: 52px;
+    }
+    &-active {
+      background: rgba(10, 117, 232, 0.2);
+      color: #0a75e8;
+    }
+  }
+  &-currencyPng {
+    width: 714px;
+    height: 357px;
+    background: #ffffff;
+  }
+  &-title {
+    width: 674px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #333333;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 20px;
+  }
+  &-item {
+    width: 714px;
+    height: 122px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 16px;
+    &-right {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    &-currencyPng {
+      width: 60px;
+      height: 60px;
+      margin-right: 48px;
+    }
+    &-title {
+      font-size: 30px;
+      font-weight: 400;
+      color: #333333;
+    }
+    &-projectRightPng {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

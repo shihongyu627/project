@@ -1,0 +1,41 @@
+@import "@styles/theme.scss";
+
+.titleRn_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 710px;
+  height: 124px;
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 20px;
+  overflow: hidden;
+  @include border(top, 2px, solid, #f2f2f2f2);
+}
+.titleRn_icon {
+  width: 54px;
+  height: 46px;
+  margin-right: 22px;
+  margin-left: 30px;
+}
+.titleRn {
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #14171a;
+  opacity: 1;
+}
+.Collapse_contentBox {
+  width: 630px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.Collapse_content {
+  margin: 0 auto;
+  width: 630px;
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #969799;
+  opacity: 1;
+}

@@ -1,0 +1,29 @@
+@import "./var.scss";
+/* 引入 Taro UI 默认样式 */
+.at-modal__container {
+  width: 640px;
+}
+.at-modal__action {
+  height: 110px;
+}
+.at-modal__footer .at-modal__action > button {
+  height: 110px;
+  line-height: 110px;
+  font-size: 34px;
+}
+.at-input {
+  margin: 0;
+}
+.at-tabs__item--active {
+  color: $S3;
+}
+.at-tabs__item-underline {
+  width: 20%;
+  background-color: $S3;
+  height: 6px;
+  left: 40%;
+  top: 70px;
+}
+.at-rate__icon--on {
+  color: $S3;
+}

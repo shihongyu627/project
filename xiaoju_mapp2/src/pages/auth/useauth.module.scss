@@ -1,0 +1,49 @@
+@import "../../style/theme.scss";
+page {
+  background-color: #fff;
+}
+.page {
+  width: 100%;
+  text-align: center;
+}
+.bg {
+  margin: 80px auto 40px auto;
+  width: 420px;
+  height: 620px;
+  border-radius: 8px;
+}
+.submit_box {
+  text-align: center;
+  width: 100%;
+  margin-top: 60px;
+  .submit_btn {
+    width:90%;
+    font-size: 33px;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: none;
+    // background-color: $theme-color;
+    background-color:#57be6a;
+  }
+  .phone_btn {
+    width:90%;
+    font-size: 33px;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: none;
+    background-color:#57be6a;
+  }
+}
+
+.notice_box {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: auto;
+  bottom: 120px;
+  overflow: hidden;
+  .notice {
+    font-size: 24px;
+    color: #888;
+  }
+}

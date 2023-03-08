@@ -1,0 +1,247 @@
+@import "../../style/theme.scss";
+.page{
+}
+.box{
+  margin-top: 100px;
+}
+
+.emptyBox {
+  text-align: center;
+}
+
+.map{
+  width:100%;
+  height: 300px;
+}
+.blues{
+  width: 90%;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 200px;
+  left: 5%;
+  z-index: 888888;
+  box-shadow:0px 0px 40px 0px rgba(196,196,196,0.43);
+  border-radius:10px;
+}
+.blues_item{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+
+.imgsBtn{
+  // width: 82px;
+  
+  // float: left;
+  // margin-right: 30px;
+  // margin-top: 10px;
+  width: 70px;
+  float: left;
+  margin-right: 30rpx;
+  height: 70px;
+}
+.marks_item{
+    font-size:30px;
+    font-family:PingFang SC;
+    font-weight:bold;
+    color:rgba(62,62,62,1);
+}
+.cars{
+    font-size:26px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(89,89,89,1);
+    margin-top: 10px;
+}
+.tooths{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 64px;
+  }
+.timesbtn{
+    margin-left: 112px;
+    font-size:30px;
+    font-family:PingFang SC;
+    font-weight:bold;
+    color:$theme-color;
+    width: 200rpx;
+}
+.sonbtn{
+    width:104px;
+    height:34px;
+    background:rgba(117,213,186,1);
+    border-radius:17px;
+    font-size:22px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: 34px;
+}
+.kilometre_item{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.payDianChe{
+  display: flex;
+  margin-left: 112px;
+}
+.imgDian{
+  width: 39px;
+  height: 39px;
+}
+.qixing{
+  font-size:22px;
+  font-family:PingFang SC;
+  font-weight:500;
+  color:rgba(155,155,155,1);
+  margin-left: 16px;
+  margin-right: 21px;
+  margin-top: 10px;
+  width: 134px;
+}
+.kilometre{
+  font-size:22px;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(70,70,70,1);
+  margin-top: 10px;
+}
+.stopBtn{
+  display: flex;
+}
+.stopCar{
+  font-size:22px;
+  font-family:PingFang SC;
+  font-weight:500;
+  color:rgba(155,155,155,1);
+  margin-top: 5px;
+}
+.iconimgbtn{
+    width: 13px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.guizebtn{
+    font-size:24px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(132,132,132,1);
+    display: flex;
+}
+.right{
+    float: right;
+    font-size:24px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:$theme-color;
+    margin-top: 80px;
+    margin-bottom: -50px;
+    display: flex;
+}
+.boxBtn{
+    text-align:center;
+    width: 100%;
+    position: fixed;
+    background: rgba(0%,0%,0%,0);
+    bottom: 50px;
+    .submit_btn{
+        width:90%;
+        height: 112px;
+        line-height: 112px;
+        margin: 0 auto;
+        background:$theme-color;
+        box-shadow:0px 5px 20px 0px rgba(196,196,196,0.8);
+        border-radius:10px;
+        font-size:34px;
+        font-family:PingFang SC;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+      }
+}
+
+
+
+
+
+
+.blues_wp{
+  width: 90%;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 50px;
+  left: 5%;
+  z-index: 888888;
+  border-radius:10px;
+}
+.blues_item_wp{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.atactive{
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 153px;
+  z-index: 88;
+  left: 42%;
+}
+.marks_item_wp{
+    font-size:40px;
+    font-family:PingFang SC;
+    font-weight:bold;
+    color:$theme-color;
+    text-align: center;
+    margin-bottom: 38px;
+}
+.tooths_wps{
+    text-align: center;
+    margin-bottom: 73.6px;
+}
+.imgsBtn_wp{
+  width: 178px;
+  height: 178px;
+  margin:  0 auto;
+}
+
+
+.cars_wps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 87px;
+    margin-bottom: 73.6px;
+}
+
+.endbtn{
+    font-size:26px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(121,121,121,1);
+    margin-right: 73px;
+}
+.unlode{
+    font-size:26px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(121,121,121,1);
+}
+.lodeing{
+  margin-left: 40%;  
+}
+
+
+
+
+
+
+
+
+
+

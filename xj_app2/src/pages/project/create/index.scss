@@ -1,0 +1,218 @@
+@import "@styles/theme.scss";
+page {
+  background: #fff;
+}
+.projectCreate {
+  width: 100%;
+  position: relative;
+  background: #fff;
+  height: 100%;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 60px;
+  &-titleRn_box {
+    width: 714px;
+    height: 80px;
+    background: #dcebfb;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    &-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  &-SignatureCapture {
+    width: 400px;
+    height: 400px;
+    background: #333;
+  }
+  &-titleRn {
+    font-size: 28px;
+    font-weight: 400;
+    color: #0a75e8;
+    width: 430px;
+    &-stitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 20px;
+      color: #0a75e8;
+    }
+  }
+  &-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &-delPng {
+      width: 30px;
+      height: 30px;
+    }
+    &-image {
+      width: 25px;
+      height: 14px;
+      margin-left: 40px;
+      margin-right: 20px;
+    }
+  }
+  &-title {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 20px;
+  }
+  &-inputBox {
+    width: 674px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &-content {
+      width: 420px;
+    }
+    &-date {
+      height: 33px;
+      font-size: 24px;
+      font-weight: 400;
+      color: #999999;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    &-title {
+      font-size: 24px;
+      font-weight: 400;
+      color: #999999;
+    }
+    &-image {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &-signBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    &-signNamePngBox {
+      position: relative;
+      margin-bottom: 10px;
+    }
+    &-iconDelPng{
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      z-index: 99;
+      left: 20px;
+      top: 8px;
+    }
+    &-signCheckPng {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      z-index: 99;
+      right: 8px;
+      top: 8px;
+    }
+    &-signNamePng {
+      width: 200px;
+      height: 140px;
+      margin-left: 10px;
+      background-color: #f2f2f2;
+    }
+    &-modal {
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 20px;
+        &-reset {
+        }
+        &-save {
+          margin-left: 20px;
+          margin-right: 60px;
+        }
+      }
+    }
+  }
+  &-footer {
+    background: #fff;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    @include border(top, 1px, solid, #e1e1e1);
+    &-top {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    &-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    &-image {
+      width: 40px;
+      height: 40px;
+      margin-right: 5px;
+    }
+    &-title {
+      font-size: 28px;
+      font-weight: 400;
+      color: #0a74e9;
+    }
+    &-btnSave {
+      width: 100%;
+      height: 90px;
+      border-radius: 6px;
+      border: 1px solid #0a74e9;
+      font-size: 28px;
+      font-weight: 600;
+      color: #0a74e9;
+      line-height: 90px;
+      text-align: center;
+      margin-top: 50px;
+    }
+    &-btnSubmit {
+      width: 100%;
+      height: 90px;
+      background: #0a74e9;
+      border-radius: 6px;
+      font-size: 28px;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 90px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}
+.projectCreate_right_image {
+  width: 25px;
+  height: 14px;
+  margin-left: 40px;
+  margin-right: 20px;
+}

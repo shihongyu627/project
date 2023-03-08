@@ -1,0 +1,19 @@
+/dist
+deploy_versions/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store
+/shell
+*.log
+*.zip
+.env
+# rn打包的产物
+app/android/app/src/main/assets/drawable-*
+app/android/app/src/main/assets/*.bundle
+app/android/app/src/main/res/**/node_modules_*
+app/android/app/src/main/res/**/src_assets_*
+
+app/ios/bundle/
+app/ios/*.jsbundle
+app/ios/assets/

@@ -1,0 +1,196 @@
+@import "../../style/theme.scss";
+.page {
+}
+.box {
+  margin-top: 100px;
+}
+
+.emptyBox {
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+}
+.blues {
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.blues_item {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tooths_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+}
+.tooths {
+  font-size: 24px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(124, 124, 124, 1);
+  letter-spacing: 1px;
+}
+.device_no {
+  font-size: 24px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(124, 124, 124, 1);
+  margin-left: 90px;
+  letter-spacing: 1px;
+}
+.numImg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.orderNo_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.noLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.noItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.noItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  position: relative;
+}
+.noItems_kefu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // position: absolute;
+  // bottom: 0;
+  // left: 0;
+  // opacity: 0.0;
+  border: 0px solid #fff !important;
+  background-color: #fff;
+  z-index: 100;
+  // cover-view {
+  //   width: 100% !important;
+  //   height: 100%;
+  //   opacity: 0;
+  // }
+}
+.noIcon {
+  width: 40px;
+  height: 40px;
+}
+.noTitle {
+  font-size: 24px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(124, 124, 124, 1);
+  margin-top: 10px;
+}
+.justBtns {
+  display: flex;
+}
+.nums {
+  width: 70%;
+  font-size: 26px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(88, 88, 88, 1);
+  letter-spacing: 1px;
+}
+.imgsBtn {
+  width: 38px;
+  height: 38px;
+  margin-right: 57px;
+}
+.imgsBtntwo {
+  width: 38px;
+  height: 38px;
+}
+.xian {
+  width: 100%;
+  height: 2px;
+  background: rgba(225, 225, 225, 1);
+  margin-top: 20px;
+}
+.justfy {
+  height: 172px;
+  text-align: center;
+  .monyuan {
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    padding-top: 20px;
+  }
+  .justguize {
+    font-size: 26px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(170, 170, 170, 1);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .justguize_title{
+    font-size: 26px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(170, 170, 170, 1);
+  }
+  .rightPng {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+  }
+}
+.justscssd {
+  display: flex;
+  justify-content: space-between;
+}
+.justscssdEnd {
+  height: 60px;
+  background: #fdefc9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yyuanEnd {
+  font-size: 24px;
+  font-family: PingFang SC;
+  color: rgba(170, 170, 170, 1);
+  letter-spacing: 1px;
+}
+.yyuan {
+  font-size: 24px;
+  font-family: PingFang SC;
+  color: rgba(170, 170, 170, 1);
+  width: 100%;
+}
+.kongfbai {
+  height: 20px;
+}

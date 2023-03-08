@@ -1,0 +1,13 @@
+diff --git a/node_modules/beeshell/dist/components/Icon/index.js b/node_modules/beeshell/dist/components/Icon/index.js
+index 37c6175..807cec1 100644
+--- a/node_modules/beeshell/dist/components/Icon/index.js
++++ b/node_modules/beeshell/dist/components/Icon/index.js
+@@ -14,7 +14,7 @@ export class Icon extends React.Component {
+             delete mainStyle.height;
+         }
+         if (!source) {
+-            source = require(`../../common/images/icons/${type}.png`);
++            // source = require(`../../common/images/icons/${type}.png`);
+         }
+         return (React.createElement(Image, { style: [
+                 style,

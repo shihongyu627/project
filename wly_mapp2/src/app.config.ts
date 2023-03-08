@@ -1,0 +1,68 @@
+export default {
+  pages: [
+    'pages/commerce/index',
+    'pages/catering/index',
+    'pages/cateringDetail/index',
+    'pages/cateringBook/index',
+    'pages/success/index',
+    'pages/mine/index',
+    'pages/aboutUs/index',
+    'pages/feedback/index',
+    'pages/order/index',
+    'pages/shop/index',
+    'pages/commodity/index',
+    'pages/hotel/index',
+    'pages/hotelSearch/index',
+    'pages/hotelDetail/index',
+    'pages/hotelBook/index',
+    'pages/shopDetail/index',
+    'pages/shopIn/index',
+    'pages/commodityDetail/index',
+    'pages/dishDetail/index',
+    'pages/rich/index',
+    'pages/search/index',
+    'pages/test/index',
+    'pages/verify/auth/index',
+    'pages/verify/check/index',
+    'pages/verify/scan/index',
+    'pages/verify/info/index',
+  ],
+  tabBar: {
+    color: '#acacac',
+    selectedColor: '#FF6833',
+    borderStyle: 'black',
+    backgroundColor: '#ffffff',
+    list: [
+      {
+        pagePath: 'pages/commerce/index',
+        text: '电商',
+        iconPath: 'assets/image/commerce.png',
+        selectedIconPath: 'assets/image/selectedCommerce.png',
+      },
+      {
+        pagePath: 'pages/catering/index',
+        text: '餐饮',
+        iconPath: 'assets/image/catering.png',
+        selectedIconPath: 'assets/image/selectedCatering.png',
+      },
+      {
+        pagePath: 'pages/hotel/index',
+        text: '酒店',
+        iconPath: 'assets/image/hotel.png',
+        selectedIconPath: 'assets/image/selectedHotel.png',
+      },
+      {
+        pagePath: 'pages/mine/index',
+        text: '我的',
+        iconPath: 'assets/image/mine.png',
+        selectedIconPath: 'assets/image/selectedMine.png',
+      },
+    ],
+  },
+  window: {
+    backgroundTextStyle: 'light',
+    navigationBarBackgroundColor: '#fff',
+    navigationBarTitleText: 'WeChat',
+    navigationBarTextStyle: 'black'
+  }
+}

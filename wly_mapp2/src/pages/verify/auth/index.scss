@@ -1,0 +1,102 @@
+.login_box {
+  background: #fff;
+  width: 100%;
+  // height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .title {
+    font-size: 54px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #000000;
+    opacity: 1;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 220px;
+    margin-bottom: 90px;
+  }
+  .nameone{
+    font-size: 54px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .name {
+    // 第一套size 54px  第二 48px
+    font-size: 42px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .namse{
+    font-size: 42px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .input_box {
+    height: 120px;
+    width: 600px;
+    border-bottom: 2px solid #f3f3f3;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    .input_wp {
+      width: 580px;
+      margin: 0 auto;
+      font-size: 30px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: #333;
+      opacity: 1;
+    }
+  }
+  .forget_textBox {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 22px;
+  }
+  .forget_text {
+    text-align: right;
+    font-size: 24px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #333333;
+    opacity: 1;
+  }
+  .login_btn {
+    width: 600px;
+    height: 88px;
+    background: #0dc2b3;
+    opacity: 1;
+    border-radius: 44px;
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 88px;
+    color: #ffffff;
+    opacity: 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .login_br {
+    // padding-bottom: 120px;
+  }
+}

@@ -1,0 +1,94 @@
+@import "@styles/theme.scss";
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 710px;
+  height: 64px;
+  margin-top: 75px;
+  &-address {
+    font-size: 30px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    &-box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &-icon {
+        width: 36px;
+        height: 36px;
+      }
+      &-title {
+        max-width: 130px;
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #fff;
+        opacity: 1;
+        @include text-ellipsis;
+        &-text {
+          max-width: 130px;
+          font-size: 26px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #fff;
+          opacity: 1;
+          @include text-ellipsis;
+        }
+      }
+    }
+  }
+  &-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    background: rgba(248, 248, 248, 0.2);
+    opacity: 1;
+    border-radius: 44px;
+    flex-grow: 2;
+    &-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &-icon {
+        width: 29px;
+        height: 29px;
+        margin-left: 20px;
+        margin-right: 10px;
+      }
+      &-text {
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: normal;
+        color: #d8d8d8;
+        opacity: 1;
+      }
+    }
+    &-btn {
+      width: 88px;
+      height: 48px;
+      background: #e0c08f;
+      /*  #ifndef  rn  */
+      background: linear-gradient(94deg, #f4e7c7 0%, #e0c08f 100%);
+      /*  #endif  */
+      opacity: 1;
+      border-radius: 44px;
+      font-size: 22px;
+      font-family: PingFang SC;
+      font-weight: normal;
+      line-height: 48px;
+      color: #6F5324;
+      opacity: 1;
+      text-align: center;
+      margin-right: 10px;
+    }
+  }
+  &-br {
+    flex-grow: 6;
+  }
+}

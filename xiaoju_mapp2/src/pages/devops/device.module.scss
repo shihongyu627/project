@@ -1,0 +1,354 @@
+@import "../../style/theme.scss";
+.page {
+}
+.box {
+  margin-top: 100px;
+}
+.kong {
+  display: inline-block;
+  width: 10px;
+  margin-left: 10px;
+}
+.emptyBox {
+  text-align: center;
+}
+
+.names {
+  width: 10%;
+  background: #fff;
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35px, -60px);
+  z-index: 888888;
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+}
+.blues {
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0px;
+  z-index: 888888;
+  max-height: 80%;
+  overflow-y: scroll;
+}
+.blues_item {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.slow {
+  display: flex;
+  margin-bottom: 20px;
+}
+.slow_item {
+  width: 50%;
+  white-space: normal;
+  font-size: 25px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(130, 130, 130, 1);
+}
+.slow_item_wp {
+  width: 40%;
+  white-space: normal;
+  font-size: 25px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(130, 130, 130, 1);
+}
+.slow_item_wps {
+  width: 90%;
+  white-space: normal;
+  font-size: 25px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(130, 130, 130, 1);
+}
+.Vehicle_top_wp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .Vehicle_top_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    height: 60px;
+    .icon {
+      width: 45px;
+      height: 45px;
+      // margin: 20px;
+      margin-right: 15px;
+    }
+  }
+}
+.Vehicle_top_title {
+  width: 440px;
+  font-size: 40px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+.Vehicle_item {
+  width: 640px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  .Vehicle_item_txt {
+    font-size: 26px;
+    font-family: PingFang SC;
+    font-weight: normal;
+    color: #707070;
+    width: 320px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    .Vehicle_item_txt_red {
+      color: #f00;
+    }
+    .Vehicle_item_txt_green {
+      color: #008000;
+    }
+  }
+}
+.fault_body {
+  width: 710px;
+  background: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 16px;
+  .fault_title {
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #060606;
+    opacity: 1;
+    margin-left: 28px;
+    border-radius: 16px;
+  }
+  .fault_textBox {
+    width: 660px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+  }
+  .fault_text {
+    font-size: 26px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #333333;
+    margin-top: 20px;
+  }
+  .fault_footerTitle {
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 40px;
+  }
+  .fault_footerImg {
+    width: 60px;
+    height: 60px;
+    margin-top: 40px;
+  }
+  .fault_list {
+    // width: 100%;
+    // display: flex;
+    // // justify-content: space-around;
+    // flex-wrap: wrap;
+    // margin-top: 80px;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    margin: 0 auto;
+    // justify-content: space-around;
+    .fault_item {
+      // margin-left: 32px;
+      width: 200px;
+      height: 64px;
+      background: #f2f2f2;
+      text-align: center;
+      line-height: 64px;
+      border-radius: 32px;
+      font-weight: 500;
+      color: #666666;
+      font-size: 24px;
+      margin-bottom: 40px;
+      margin-left: 20px;
+    }
+    .onActive {
+      background: $theme-color;
+      color: #333333;
+      font-weight: bold;
+    }
+    .fault_item_alipay {
+      margin-left: 32px;
+      width: 213px;
+      height: 52px;
+      background: rgba(255, 255, 255, 1);
+      border: 1px solid #eeeeee;
+      text-align: center;
+      line-height: 52px;
+      border-radius: 5px;
+      font-weight: 500;
+      color: rgba(157, 157, 157, 1);
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    .onActive_alipay {
+      margin-left: 32px;
+      width: 213px;
+      height: 52px;
+      border: 1px solid #eeeeee;
+      text-align: center;
+      line-height: 52px;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 28px;
+      margin-bottom: 40px;
+      background: $theme-color;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  .at-image-picker {
+    width: 100%;
+    height: 100%;
+  }
+}
+.tool_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 84px;
+  height: 84px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.02);
+  // height: 320px;
+  position: fixed;
+  right: 30px;
+  top: 50px;
+  background: #fff;
+  border-radius: 50%;
+  .icon {
+    width: 45px;
+    height: 45px;
+    // margin: 20px;
+  }
+}
+.Vehicle_tgb {
+  display: flex;
+  flex-wrap: wrap;
+  width: 680px;
+  margin: 0 auto;
+  .Vehicle_tgb_item {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    background: #ffa200;
+    font-size: 26px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+}
+.Vehicle_content {
+  width: 640px;
+  background: #fbfbfb;
+  opacity: 1;
+  border-radius: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-top: 26px;
+  margin-bottom: 40px;
+  .Vehicle_content_top {
+    display: flex;
+    align-items: center;
+    .Vehicle_content_br {
+      width: 16px;
+      height: 16px;
+      border: 4px solid #03aefc;
+      border-radius: 50%;
+      opacity: 1;
+      margin-left: 20px;
+    }
+    .Vehicle_content_title {
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: #333333;
+      // opacity: 1;
+      margin-left: 10px;
+    }
+  }
+  .Vehicle_content_address {
+    width: 545px;
+    font-size: 26px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #707070;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: 12px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-line;
+  }
+}
+// .tool_box {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   text-align: center;
+//   overflow: hidden;
+//   width: 90px;
+//   position: fixed;
+//   padding-top: 10px;
+//   padding-bottom: 10px;
+//   right: 30px;
+//   top: 283px;
+//   background: #fff;
+//   border: 1px solid #eee;
+//   box-shadow: 0 0 10px #eee;
+//   border-radius: 8px;
+//   .icon {
+//     width: 55px;
+//     height: 50px;
+//     margin: 10px;
+//   }
+//   .iconkey {
+//     width: 42px;
+//     height: 45px;
+//     margin: 10px;
+//   }
+//   .btn_t {
+//     font-size: 24px;
+//   }
+// }

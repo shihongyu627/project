@@ -1,0 +1,13 @@
+.onActive1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.onActive2 {
+  word-break: break-all;
+  text-overflow: ellipsis; //显示为省略号
+  display: -webkit-box; //对象作为伸缩盒子模型显示
+  -webkit-box-orient: vertical; //设置或检索伸缩盒对象的子元素的排列方式
+  -webkit-line-clamp: 2; //显示行数## 标题文字 ##
+  overflow: hidden;
+}

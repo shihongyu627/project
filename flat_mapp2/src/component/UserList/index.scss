@@ -1,0 +1,20 @@
+@import "@styles/theme.scss";
+.HouseList {
+  width: 710px;
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &-name {
+    width: 680px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+}

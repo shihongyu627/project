@@ -1,0 +1,281 @@
+@import "../../style/theme.scss";
+
+.page {}
+
+.box {
+  margin-top: 100px;
+}
+
+.emptyBox {
+  text-align: center;
+}
+
+.repair_bookWp {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 500px;
+  right: 5%;
+  z-index: 888888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.repair_icon {
+  width: 50px;
+  height: 50px;
+}
+
+.unlockStatus_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.unlockStatus_repair {
+  width: 30px;
+  height: 30px;
+}
+
+.unlockStatus_txt {
+  color: #a6a6a6;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+}
+
+.blues {
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  // left: 5%;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.blues_item {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.newblues_item {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.marks_item {
+  font-size: 32px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.atactive {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 130px;
+  z-index: 88;
+  left: 42%;
+}
+
+.tooths {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 73.6px;
+}
+
+.imgsBtn {
+  width: 178px;
+  height: 178px;
+  margin: 0 auto;
+}
+
+.endbtn {
+  font-size: 24px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(122, 122, 122, 1);
+  text-align: center;
+  margin-bottom: 67px;
+  padding-top: 60px;
+}
+
+.artic {
+  font-size: 24px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(122, 122, 122, 1);
+  text-align: center;
+}
+
+.confirm {
+  width: 548px;
+  height: 96px;
+  background: $theme-color;
+  box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 96px;
+  margin-top: 87px;
+  margin-bottom: 89px;
+}
+
+.notarrive {
+  font-size: 32px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.notarrive_text {
+  color: red;
+  text-align: center;
+  font-size: 22px;
+}
+
+.goAddress {
+  width: 548px;
+  height: 96px;
+  background: $theme-color;
+  box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 96px;
+  margin-top: 20px;
+}
+
+.payBtn {
+  width: 548px;
+  height: 96px;
+  background: #bbbbbb;
+  box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 96px;
+  margin-top: 30px;
+}
+
+.refreshPng {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.stopAddress {
+  color: #bfbfbf;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrtiveBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrcove {
+  color: $theme-color;
+}
+
+.correct {
+  font-size: 40px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(64, 64, 64, 1);
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.correcterrormessage {
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: red;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.lodeing {
+  margin-left: 40%;
+}
+
+.orderOver {
+  display: flex;
+}
+
+.orderOverback {
+  width: 248px;
+  height: 96px;
+  background: #fff;
+  // box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+  border-radius: 10px;
+  border: 1px solid #bbbbbb;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(64, 64, 64, 1);
+  line-height: 96px;
+  margin-bottom: 20px;
+}
+
+.orderOverOk {
+  width: 248px;
+  height: 96px;
+  background: $theme-color;
+  box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 96px;
+  margin-bottom: 20px;
+}

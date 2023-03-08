@@ -1,0 +1,175 @@
+@import "../../style/theme.scss";
+.page {
+}
+.orders{
+
+}
+.noctive {
+  width: 100%;
+  height: 80px;
+  background: #ffffff;
+}
+.noctive View{
+  display: flex;
+  
+}
+
+.fault_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+  height: 80px;
+  line-height: 80px;
+  border-top: 1px solid rgba(233,233,233,1);
+  font-size:28px;
+  font-family:Microsoft YaHei;
+  font-weight:400;
+  .fault_item {
+    height:80px;
+    font-size:28px;
+    color:rgba(148,148,148,1);
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    line-height:80px;           
+    position: relative;
+  }
+  .fault_item_wp {
+    height:80px;
+    font-size:28px;
+    color:rgba(34,34,34,1);
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    line-height:80px;           
+    position: relative;
+  }
+  .onActive {
+    color:$theme-color;
+  }
+  .myTask_br{
+    width:100%;
+    height:5px;
+    background:$theme-color;
+    border-radius:3px;
+    position: absolute;
+ }
+}
+
+.serial{
+  width: 100%;
+  margin-top: 27px;
+  .serial_item{
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  .serial_wp{
+    width: 100%;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius:10px;
+  }
+  .order_ser{
+    width: 88%;
+    margin: 0 auto;
+  }
+  .vehicle{
+    display: flex;
+    height: 92px;
+    line-height: 92px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(233,233,233,1);
+    .vehicle_item{
+      font-size:24px;
+      font-family:PingFang SC;
+      font-weight:500;
+      color:rgba(104,104,104,1);
+    }
+    .states{
+      font-size:26px;
+      font-family:PingFang SC;
+      font-weight:500;
+      color:rgba(104,104,104,1);
+    }
+  }
+  .scenic{
+    .times{
+      height: 102px;
+      line-height: 102px;
+      font-size:26px;
+      font-family:PingFang SC;
+      font-weight:500;
+      color:rgba(58,58,58,1);
+    }
+    .testBtn{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .adresyuan{
+    display: flex;
+  }
+  .yuan{
+    width:20px;
+    height:20px;
+    background:rgba(60,188,163,1);
+    border-radius:50%;
+    margin-top: 10px;
+    margin-right: 18px;
+  }
+  .addres_item{
+    font-size:28px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(58,58,58,1);
+  }
+  .money{
+    font-size:30px;
+    font-family:PingFang SC;
+    font-weight:bold;
+    color:rgba(47,46,45,1);
+  }
+  .addres{
+    display: flex;
+    justify-content: space-between;
+    // height: 52px;
+  }
+  .yuan_wp{
+    width:20px;
+    height:20px;
+    background:$theme-color;
+    border-radius:50%;
+    margin-top: 10px;
+    margin-right: 18px;
+  }
+  .message{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 48px;
+    padding-top: 20px;
+    .fodc{
+      font-size:28px;
+      font-family:PingFang SC;
+      font-weight:500;
+      color:rgba(58,58,58,1);
+      margin-top: 10px;
+    }
+    .doces{
+      font-size:22px;
+      font-family:PingFang SC;
+      font-weight:500;
+      color:$theme-color;
+      margin-top: 10px;
+    }
+  }
+}
+
+.buttonBtn{
+  display: flex;
+  flex-direction:row-reverse
+}
+.znums{
+  margin-right: 10px;
+}
+

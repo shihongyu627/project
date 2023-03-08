@@ -1,0 +1,16 @@
+.lifeCostBox {
+  background: #f4f4f4;
+  height: 100%;
+  position: relative;
+  padding-top: 20px;
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+  }
+  &-bottomBr {
+    height: 190px;
+  }
+  &-topBr {
+    height: 20px;
+  }
+}

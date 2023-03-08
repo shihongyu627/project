@@ -1,0 +1,47 @@
+@import "@styles/theme.scss";
+
+.loginInput {
+  width: 632px;
+  margin: 0 auto;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  @include border(bottom, 2px, solid, #c0c0c0);
+  &-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &-title {
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #000000;
+    opacity: 1;
+  }
+  &-icon {
+    width: 30px;
+    height: 33px;
+    margin-right: 20px;
+  }
+  &-text {
+    height: 100%;
+    width: 400px;
+    font-size: 30px;
+  }
+  &-codeBtn {
+    width: 163px;
+    height: 57px;
+    background: #d1fff8;
+    border: 1px solid #2fd7bd;
+    border-radius: 29px;
+    font-size: 26px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #2fd7bd;
+    line-height: 57px;
+    text-align: center;
+  }
+}

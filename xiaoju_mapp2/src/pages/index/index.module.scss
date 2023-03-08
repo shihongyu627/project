@@ -1,0 +1,492 @@
+@import "../../style/theme.scss";
+.page {
+}
+.callout {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+.callout_main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  color: rgba(170, 170, 170, 1);
+  font-size: 24px;
+  font-weight: bold;
+}
+.distance {
+  color: rgba(170, 170, 170, 1);
+  font-size: 24px;
+  font-weight: bold;
+}
+.guideBtnBox {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.guideIcon {
+  width: 30px;
+  height: 30px;
+}
+.guideBtn {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffc821;
+  margin-top: 5px;
+}
+.brLine {
+  height: 60px;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.39);
+  margin-left: 15px;
+}
+.CommonToastBox {
+  position: fixed;
+  z-index: 9999999;
+  background: rgba(0, 0, 0, 0.39);
+  width: 100%;
+  height: 100%;
+}
+.icons {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35px, -60px);
+}
+
+.ad_box {
+  width: 700px;
+  height: 120px;
+  background: none;
+  margin: 20px auto;
+  overflow: hidden;
+  position: fixed;
+  left: 25px;
+  top: 50px;
+  z-index: 10;
+  swiper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .ad_icon {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #eee;
+    }
+  }
+}
+
+.use_box {
+  text-align: center;
+  width: 90%;
+  height: 305px;
+  left: 5%;
+  top: 20px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 0;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #eee;
+  flex-direction: column;
+  position: absolute;
+  z-index: 9999;
+  .use_t {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 20px 0px 0px 40px;
+    color: $theme-color;
+    font-size: 24px;
+  }
+  .show_box {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    .num_box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .num_b {
+        flex: 1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+        .num_t {
+          color: #000;
+          font-size: 38px;
+          width: 100%;
+          font-weight: bold;
+        }
+        .num_t2 {
+          font-size: 26px;
+          color: #888;
+        }
+      }
+    }
+  }
+  .btn_box_line {
+    height: 0.5px;
+    background: #eee;
+  }
+  .btn_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // border-top: 1px solid #eee;
+    .btn_b {
+      flex: 1;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      .btn_img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+      }
+      .btn_t {
+        color: #888;
+        font-size: 23px;
+        margin: 5px;
+      }
+      .btn_t2 {
+        font-size: 30px;
+        color: #fff;
+      }
+    }
+  }
+}
+.okModal_box {
+  position: fixed;
+  z-index: 999999;
+  background: rgba(0, 0, 0, 0.39);
+  width: 100%;
+  height: 100%;
+}
+.ok_box {
+  text-align: center;
+  width: 90%;
+  height: 555px;
+  left: 5%;
+  top: 420px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 9999;
+  .show_box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    font-size: 42px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: rgba(64, 64, 64, 1);
+  }
+  .show_text1 {
+    margin: 35px 0 0 0;
+    font-size: 36px;
+    font-family: PingFang SC;
+    font-weight: 200;
+    color: #bbb;
+  }
+  .show_text {
+    margin: 5px 0;
+    font-size: 34px;
+    font-family: PingFang SC;
+    font-weight: 200;
+    color: #bbb;
+  }
+  .jingbao_iconBox {
+    margin-top: 30px;
+  }
+  .jingbao_icon {
+    width: 80px;
+    height: 80px;
+  }
+  .orderOver {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    .orderOverback {
+      width: 300px;
+      height: 96px;
+      background: #fff;
+      // box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+      border-radius: 10px;
+      border: 1px solid #bbbbbb;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 34px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: rgba(64, 64, 64, 1);
+      line-height: 96px;
+      margin-bottom: 20px;
+    }
+
+    .orderOverOk {
+      width: 300px;
+      height: 96px;
+      background: $theme-color;
+      box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+      border-radius: 10px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 34px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 1);
+      line-height: 96px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.tool_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  // overflow: hidden;
+  width: 90px;
+  // height: 320px;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  right: 30px;
+  top: 360px;
+  background: #fff;
+  // border: 1px solid #eee;
+  // box-shadow: 0 0 10px #eee;
+  border-radius: 8px;
+  z-index: 10;
+  .iconwp {
+    position: relative;
+    // flex: 1;
+    width: 45px;
+    height: 45px;
+    margin: 20px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .icon_kefu {
+    width: 45px;
+    height: 45px;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    border: 0px solid #fff;
+  }
+  .icon {
+    flex: 1;
+    width: 45px;
+    height: 45px;
+    margin: 20px;
+  }
+  .home_content {
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    // opacity: 0.0;
+    border: 0px solid #fff;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    z-index: 100;
+    // cover-view {
+    //   width: 100% !important;
+    //   height: 100%;
+    //   opacity: 0;
+    // }
+  }
+}
+
+.user_box {
+  text-align: right;
+  width: 200px;
+  height: 90px;
+  border-radius: 45px;
+  position: fixed;
+  bottom: 380px;
+  left: -100px;
+  background: #fff;
+  // border: 1px solid #eee;
+  // box-shadow: 0 0 10px #eee;
+  // overflow: hidden;
+  z-index: 10;
+  .user_icon {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    margin-right: 30px;
+  }
+}
+.submit_box_stop {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  background-color: rgba(0%, 0%, 0%, 0);
+  .submit_btn_stop {
+    display: flex;
+    width: 90%;
+    height: 126px;
+    line-height: 126px;
+    border-radius: 10px;
+    font-size: 27px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.8);
+    border-color: #ffffff;
+  }
+  .stopImg {
+    width: 70px;
+    height: 70px;
+    margin-top: 26px;
+    margin-left: 26px;
+  }
+  .stop_item {
+    color: #333;
+    font-size: 29px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 26px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .stop_wp {
+    color: #f4797a;
+    margin-left: 26px;
+    font-size: 25px;
+    text-align: left;
+  }
+}
+.blues {
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0px;
+  // left: 5%;
+  z-index: 100;
+}
+.newblues_item {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.notarrive {
+  font-size: 32px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.notarrive_text {
+  color: red;
+  text-align: center;
+  font-size: 22px;
+}
+.goAddress {
+  width: 548px;
+  height: 96px;
+  background: $theme-color;
+  box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 96px;
+  margin-top: 20px;
+}
+.payBtn {
+  width: 548px;
+  height: 96px;
+  background: #bbbbbb;
+  box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.52);
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 34px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 96px;
+  margin-top: 30px;
+}
+.refreshPng {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.stopAddress {
+  color: #bfbfbf;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.submit_box {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 120px;
+  z-index: 10;
+  background-color: rgba(0%, 0%, 0%, 0);
+  .submit_btn {
+    width: 90%;
+    // height: 52px;
+    // font-size: 32px;
+    // border-radius: 52px;
+    // border: none;
+    height: 110px;
+    line-height: 110px;
+    border-radius: 24px;
+    font-size: 38px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 1);
+    background: $theme-color;
+    // box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.8);
+    // border-color: $theme-color;
+  }
+}

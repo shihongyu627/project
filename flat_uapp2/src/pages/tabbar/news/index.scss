@@ -1,0 +1,24 @@
+page {
+  background: #f4f4f4;
+}
+.news {
+  &-headers {
+    align-items: center;
+    padding-top: 22px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  &-scrollDom {
+    /*  #ifdef  rn  */
+    padding-top: 155px;
+    /*  #endif  */
+  }
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 20px;
+    /*  #ifdef  rn  */
+    padding-bottom: 300px;
+    /*  #endif  */
+  }
+}

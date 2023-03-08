@@ -1,0 +1,20 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F6F6F6;
+  box-sizing: border-box;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+.container-no-height {
+  width: 100vw;
+  background-color: #F6F6F6;
+  box-sizing: border-box;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+body div{
+  line-height: 30px;
+  font-size: 28px;
+}
+

@@ -1,0 +1,17 @@
+.title_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title_icon {
+  width: 54px;
+  height: 46px;
+  margin-right: 22px;
+}
+.title {
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #14171a;
+  opacity: 1;
+}

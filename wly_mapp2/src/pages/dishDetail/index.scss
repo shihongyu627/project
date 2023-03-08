@@ -1,0 +1,35 @@
+.dish-detail {
+  .dish-detail-image {
+    width: 750px;
+    height: 462px;
+  }
+  .dish-detail-card {
+    width: 710px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 0px #DCDCDC;
+    border-radius: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    .dish-title {
+      font-size: 36px;
+      font-weight: 500;
+      color: #333333;
+      line-height: 50px;
+      margin-bottom: 10px;
+    }
+    .dish-content {
+      font-size: 26px;
+      font-weight: 400;
+      color: #777777;
+      line-height: 37px;
+    }
+  }
+  .dish-rich {
+    width: 710px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 0px #DCDCDC;
+    border-radius: 10px;
+    margin: 20px;
+  }
+}

@@ -1,0 +1,122 @@
+@import "@styles/theme.scss";
+
+.feedBack {
+  background: #f4f4f4;
+  height: 100%;
+  position: relative;
+
+  &-br {
+    height: 20px;
+  }
+  &-top {
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    &-title {
+      font-size: 36px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #2a3549;
+      opacity: 1;
+      padding-top: 30px;
+      padding-left: 30px;
+    }
+    &-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-top: 20px;
+      &-item {
+        width: 210px;
+        height: 66px;
+        background: #f5f4f5;
+        opacity: 1;
+        border-radius: 34px;
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: normal;
+        line-height: 66px;
+        color: #747474;
+        opacity: 1;
+        text-align: center;
+      }
+      &-items {
+        background: #ffe9be;
+        color: #5f411b;
+      }
+    }
+  }
+
+  &-box {
+    border-radius: 20px;
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    margin: 0 auto;
+    padding-top: 20px;
+    &-title {
+      font-size: 36px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #2a3549;
+      opacity: 1;
+    }
+    &-Textarea {
+      width: 644px;
+      margin: 0 auto;
+      background: #fbfbfb;
+      min-height: 190px;
+      top: 0;
+      z-index: 999;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    &-Textareas {
+      width: 100%;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      margin-top: 10px;
+      top: 0;
+      z-index: 999;
+      position: absolute;
+    }
+    &-imageBox {
+      width: 644px;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      &-imageItem{
+        width: 190px;
+        height: 190px;
+        opacity: 1;
+        border-radius: 4px;
+        margin-right: 25px;
+        margin-top: 20px;
+      }
+      &-title {
+        width: 644px;
+        margin: 0 auto;
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #969799;
+        opacity: 0.6;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+.bottomBr {
+  height: 190px;
+}
+.bottomBrs {
+  height: 100%;
+}

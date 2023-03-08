@@ -1,0 +1,19 @@
+@import "@styles/theme.scss";
+.userProject {
+  height: 100%;
+  background: #fff;
+  padding-bottom: 60px;
+  margin-top: 1px;
+  &-item {
+    width: 674px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    @include border(bottom, 1px, solid, #ebebeb);
+  }
+  &-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #0a74e9;
+  }
+}

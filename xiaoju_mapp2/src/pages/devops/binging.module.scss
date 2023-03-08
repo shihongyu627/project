@@ -1,0 +1,191 @@
+@import "../../style/theme.scss";
+.page {
+}
+.fault_input {
+  width: 688px;
+  height: 90px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 45px;
+  margin: 0 auto;
+  margin-top: 21px;
+  position: relative;
+  font-size: 28px;
+  overflow: hidden;
+  .inputsdd {
+    font-size: 28px;
+  }
+  input {
+    width: 526px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    // font-weight: 500;
+    // color: #cccccc;
+    // text-indent: 10px;
+    padding-left: 30px;
+    overflow: hidden;
+  }
+  .fault_input_right {
+    width: 162px;
+    height: 90px;
+    background: $theme-color;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    image {
+      width: 54px;
+      height: 54px;
+      // position: absolute;
+      // left: 62px;
+      // top: 27px;
+    }
+  }
+}
+.bind_info {
+  width: 710px;
+  height: 780px;
+  background: #ffffff;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 45px;
+}
+.bind_info_title {
+  font-size: 36px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #060606;
+  margin-left: 22px;
+  padding-top: 40px;
+}
+.bind_info_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bind_text {
+  font-size: 26px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #969799;
+  margin-left: 54px;
+  margin-top: 10px;
+}
+.bind_info_item {
+  width: 204px;
+  height: 160px;
+  margin-top: 28px;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bind_img {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.bind_title {
+  font-size: 26px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #161616;
+  margin-top: 15px;
+}
+.onActive {
+  background-color: #fadb3a;
+  color: #060606;
+}
+.carTest {
+  width: 688px;
+  margin: 0 auto;
+}
+.fault_item {
+  width: 688px;
+  height: 90px;
+  line-height: 90px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+  font-size: 30px;
+}
+.fault_title {
+  padding-left: 40px;
+  color: #333;
+  font-size: 30px;
+  width: 46%;
+}
+.bingrollBtn {
+  width: 698px;
+  height: 96px;
+  // background: linear-gradient(90deg, #FCE63E 0%, #F6CE36 100%);
+  opacity: 1;
+  border-radius: 48px;
+  margin: 0 auto;
+  margin-top: 40px;
+  // color: #333;
+  overflow: hidden;
+}
+.detection {
+  width: 100%;
+  height: 96px;
+  text-align: center;
+  line-height: 96px;
+  background: turquoise;
+  color: #ffff;
+  // border-radius: 10px;
+  font-size: 30px;
+}
+.detectionBtn {
+  width: 100%;
+  height: 96px;
+  text-align: center;
+  line-height: 90px;
+  background: red;
+  color: #ffff;
+  // border-radius: 48px;
+  font-size: 30px;
+}
+.detectionBtns {
+  width: 100%;
+  height: 96px;
+  text-align: center;
+  line-height: 90px;
+  background: green;
+  color: #ffff;
+  // border-radius: 10px;
+  font-size: 30px;
+}
+.bingBtn {
+  width: 162px;
+  background: $theme-color;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffff;
+  font-size: 30px;
+}
+.fault_wp {
+  display: flex;
+  margin: 0 0 0px 30px;
+  font-size: 30px;
+}
+.fault_texts {
+  width: 132px;
+  margin-left: 30px;
+  color: turquoise;
+  font-size: 30px;
+}
+.fault_texts_wp {
+  // margin-top: 46px;
+  width: 132px;
+  margin-left: 30px;
+  color: red;
+  font-size: 30px;
+}

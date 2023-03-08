@@ -1,0 +1,320 @@
+@import "../../style/theme.scss";
+.page {
+  padding-bottom: 150px;
+}
+.orders {
+}
+
+.selectAddress {
+  width: 686px;
+  margin: 0 auto;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.item_box {
+  display: flex;
+  height: 104px;
+  width: 690px;
+  line-height: 104px;
+  justify-content: space-between;
+  background: #ffffff;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  picker {
+    width: 50%;
+  }
+  .name_txt {
+    height: 104px;
+    // text-align: justify;
+    text-align-last: justify;
+    font-size: 28px;
+    line-height: 104px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: #131313;
+  }
+  .addressName {
+    margin-right: 25px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+    height: 90px;
+    width: 420px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    // white-space: nowrap;
+    right: 55px;
+    position: absolute;
+    color: #707070;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .address_right {
+    margin-right: 15px;
+  }
+  .addressMsg {
+    color: #cccccc;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 25px;
+  }
+}
+.picker_icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fault_input {
+  width: 688px;
+  height: 90px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 45px;
+  margin: 0 auto;
+  margin-top: 21px;
+  position: relative;
+  font-size: 30px;
+  overflow: hidden;
+  .inputsdd {
+    font-size: 30px;
+  }
+  input {
+    width: 345px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    // font-weight: 500;
+    // color: #cccccc;
+    // text-indent: 10px;
+    padding-left: 30px;
+    overflow: hidden;
+  }
+  .fault_input_left{
+    width: 152px;
+    height: 90px;
+    background: $theme-color;
+    position: absolute;
+    right: 154px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    image {
+      width: 54px;
+      height: 54px;
+    }
+  }
+  .fault_input_right {
+    width: 152px;
+    height: 90px;
+    background: $theme-color;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    image {
+      width: 54px;
+      height: 54px;
+    }
+  }
+}
+
+.Vehicle_box {
+  width: 710px;
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 35px;
+  .Vehicle_top {
+    width: 636px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 44px;
+    .Vehicle_top_title {
+      width: 440px;
+      font-size: 40px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #000000;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .Vehicle_top_l {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 154px;
+      height: 52px;
+      background: #ffffff;
+      border: 2px solid #ffa200;
+      opacity: 1;
+      border-radius: 28px;
+      .Vehicle_top_img {
+        width: 24px;
+        height: 24px;
+      }
+      .Vehicle_top_txt {
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #ffa200;
+        opacity: 1;
+        margin-left: 5px;
+      }
+    }
+  }
+  .Vehicle_item {
+    width: 640px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    .Vehicle_item_txt {
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: normal;
+      color: #707070;
+      width: 320px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      .Vehicle_item_txt_red{
+        color: #f00;
+      }
+      .Vehicle_item_txt_green{
+        color: #008000;
+      }
+    }
+  }
+  .Vehicle_tgb {
+    display: flex;
+    flex-wrap: wrap;
+    width: 680px;
+    margin: 0 auto;
+    .Vehicle_tgb_item {
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 8px;
+      background: #ffa200;
+      font-size: 26px;
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+  }
+  .Vehicle_content {
+    width: 640px;
+    background: #fbfbfb;
+    opacity: 1;
+    border-radius: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 26px;
+    .Vehicle_content_top {
+      display: flex;
+      align-items: center;
+      .Vehicle_content_br {
+        width: 16px;
+        height: 16px;
+        border: 4px solid #03aefc;
+        border-radius: 50%;
+        opacity: 1;
+        margin-left: 20px;
+      }
+      .Vehicle_content_title {
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #000000;
+        // opacity: 1;
+        margin-left: 10px;
+      }
+    }
+    .Vehicle_content_address {
+      width: 545px;
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: #707070;
+      opacity: 1;
+      margin: 0 auto;
+      margin-top: 12px;
+    }
+  }
+
+}
+.simpleinfo_Box {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 27px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 155px;
+}
+.simpleinfo_icon {
+  border-radius: 50%;
+  margin-right: 20px;
+  z-index: 5;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.simpleinfo_num {
+  font-size: 24px;
+  color: #333;
+  line-height: 60px;
+}
+.simpleinfo_wp{
+  display: flex;
+  width: 90%;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 10px;
+  font-size: 27px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.8);
+  border-color: #ffffff;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 20px;
+  z-index: 999;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.AtFloatLayout_box {
+  z-index: 9999;
+  .at-float-layout__container {
+    border-top-left-radius: 40px !important;
+    border-top-right-radius: 40px !important;
+    overflow: hidden !important;
+  }
+}

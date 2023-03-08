@@ -1,0 +1,153 @@
+@import "@styles/theme.scss";
+.ItemLogList {
+  &-stepsBox {
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 0 0 20px 20px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+    /*  #ifndef  rn  */
+    padding-bottom: 90px;
+    /*  #endif  */
+    padding-top: 48px;
+    &-item {
+      // display: flex;
+      // flex-direction: row;
+      // align-items: center;
+      &-top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &-avatar {
+          width: 90px;
+          height: 90px;
+          border-radius: 90px;
+        }
+        &-right {
+          margin-left: 15px;
+          &-nameBox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+          }
+          &-status_name {
+            font-size: 28px;
+            font-weight: 500;
+            color: #0a75e8;
+          }
+          &-name {
+            font-size: 32px;
+            font-weight: 400;
+            color: #0a75e8;
+          }
+          &-title {
+            width: 580px;
+            font-size: 26px;
+            font-weight: 400;
+            color: #999999;
+            margin-top: 10px;
+          }
+          &-time {
+            font-size: 26px;
+            font-weight: 400;
+            color: #999999;
+            letter-spacing: 1px;
+          }
+        }
+        &-raido {
+          width: 24px;
+          height: 24px;
+          background: #ffffff;
+          border: 6px solid #e7c794;
+          border-radius: 24px;
+          opacity: 1;
+          margin-left: 36px;
+        }
+        &-raidos {
+          width: 20px;
+          height: 20px;
+          background: #cccccc;
+          border-radius: 20px;
+          opacity: 1;
+          margin-left: 38px;
+        }
+        &-statusName {
+          font-size: 32px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #2a3549;
+          opacity: 1;
+          padding-left: 28px;
+        }
+        &-statusNames {
+          color: #5f411b;
+        }
+      }
+      &-bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        &-content {
+          margin-left: 40px;
+          @include border(left, 10px, solid, #e7e7e7);
+        }
+        &-contentes {
+          margin-left: 40px;
+          @include border(left, 10px, solid, #e7e7e7);
+        }
+        &-right{
+          width: 568px;
+        }
+        &-contentStart {
+          padding-bottom: 40px;
+          height: 100%;
+          &-title {
+            margin-bottom: 12px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 28px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            color: #747474;
+            opacity: 1;
+          }
+          &-text {
+            width: 564px;
+            font-size: 28px;
+            font-weight: 400;
+            color: #666666;
+            margin-bottom: 10px;
+          }
+          &-imgBox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            &-sign_img {
+              width: 200px;
+              height: 140px;
+              background: rgba(0, 0, 0, 0);
+              opacity: 1;
+              border-radius: 4px;
+              margin-right: 10px;
+              margin-top: 20px;
+            }
+            &-img {
+              width: 170px;
+              height: 170px;
+              background: rgba(0, 0, 0, 0);
+              opacity: 1;
+              border-radius: 4px;
+              margin-right: 10px;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

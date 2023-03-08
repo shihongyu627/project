@@ -1,0 +1,245 @@
+@import "../../style/theme.scss";
+.box {
+  margin-top: 100px;
+}
+.fault_input {
+  width: 688px;
+  height: 90px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 21px;
+  position: relative;
+  input {
+    width: 526px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    // font-weight: 500;
+    // color: #cccccc;
+    // text-indent: 10px;
+    padding-left: 30px;
+    overflow: hidden;
+  }
+  .fault_input_right {
+    width: 162px;
+    height: 90px;
+    background: $theme-color;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    image {
+      width: 39px;
+      height: 36px;
+      position: absolute;
+      left: 62px;
+      top: 27px;
+    }
+  }
+}
+.fault_body {
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 25px;
+  .fault_title {
+    height: 27px;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(98, 98, 98, 1);
+    line-height: 86px;
+    margin-left: 28px;
+  }
+  .fault_list {
+    width: 100%;
+    display: flex;
+    // justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    .fault_item {
+      margin-left: 32px;
+      width: 213px;
+      height: 52px;
+      background: rgba(255, 255, 255, 1);
+      // border:0.5px solid rgba(173,173,173,1);
+      border: 0.5px solid #eeeeee;
+      text-align: center;
+      line-height: 52px;
+      border-radius: 5px;
+      font-weight: 500;
+      color: rgba(157, 157, 157, 1);
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    .onActive {
+      background: $theme-color;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  .at-image-picker {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+.fault_pick {
+  // width: 100%;
+  height: 100%;
+  background: #ffffff;
+  padding-left: 31px;
+  padding-bottom: 20px;
+}
+.photo_box {
+  width: 710px;
+  background: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.photo {
+  height: 100px;
+  line-height: 100px;
+  padding-left: 50px;
+  background: #ffffff;
+  font-size: 36px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #060606;
+  border-radius: 16px;
+  .required {
+    font-size: 28px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: $theme-color;
+  }
+}
+.fault_area {
+  width: 710px;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-top: 20px;
+  background: #ffffff;
+  .fault_area_title {
+    font-size: 36px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #060606;
+    opacity: 1;
+    padding-top: 32px;
+    margin-left: 32px;
+  }
+  .testea {
+    padding: 35px;
+    height: 200px;
+  }
+}
+.mapsets {
+  height: 100px;
+  line-height: 100px;
+  padding-left: 31px;
+  margin-top: 32px;
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(98, 98, 98, 1);
+  background: #ffffff;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  margin-bottom: 20px;
+  .location_wp {
+    display: flex;
+    margin-left: 31px;
+    font-size: 26px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(100, 100, 100, 1);
+  }
+  .imgBtns {
+    width: 25px;
+    height: 37px;
+    margin-right: 29px;
+  }
+  .location_item {
+    font-size: 22px;
+    margin-right: 31px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(120, 120, 120, 1);
+  }
+}
+.ontaps {
+  background: #ffffff;
+}
+.maps {
+  width: 100%;
+  padding-bottom: 20px;
+  .mapsTop {
+    width: 100%;
+  }
+  .tops {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .icons {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    // transform: translate(-20px,65px)
+    transform: translate(-35px, -60px);
+  }
+}
+.pageSection {
+  background: #ffffff;
+  width: 710px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.pageAlipay {
+  background: #ffffff;
+  border: 0 solid #d6e4ef;
+  height: 100px;
+  line-height: 100px;
+}
+.pickerd {
+  // margin-left: 20px;
+  padding-left: 25px;
+  font-size: 32px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(98, 98, 98, 1);
+}
+.fault_submit_box {
+  width: 100%;
+  height: 160px;
+  background: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+.fault_submit {
+  width: 710px;
+  height: 96px;
+  background: linear-gradient(102deg, #fce63e 0%, #f6ce36 100%);
+  border-radius: 48px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  line-height: 96px;
+}

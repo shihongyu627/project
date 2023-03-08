@@ -1,0 +1,21 @@
+.navBar_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 3rem;
+  .back {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: .3rem;
+  }
+  .title {
+    font-size: .75rem;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: #fff;
+    opacity: 1;
+  }
+}

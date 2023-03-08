@@ -1,0 +1,143 @@
+@import "@styles/theme.scss";
+.recordList {
+  position: relative;
+  height: 100%;
+  background: #f7f7f7;
+  &-headers {
+    width: 100%;
+    height: 88px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    &-item {
+      width: 127px;
+      height: 52px;
+      border-radius: 26px;
+      font-size: 28px;
+      color: #333333;
+      text-align: center;
+      line-height: 52px;
+    }
+    &-active {
+      background: rgba(10, 117, 232, 0.2);
+      color: #0a75e8;
+    }
+  }
+  &-titleRn_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 714px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &-stitle {
+      width: 544px;
+      font-size: 32px;
+      font-weight: 500;
+      color: #333333;
+    }
+    &-image {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &-itembox {
+    width: 714px;
+    background: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  &-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 15px;
+    &-image {
+      width: 40px;
+      height: 40px;
+    }
+    &-title {
+      font-size: 28px;
+      font-weight: 400;
+      color: #666;
+    }
+    &-name {
+      font-size: 28px;
+      font-weight: 400;
+      color: #333;
+      width: 500px;
+    }
+  }
+  &-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 88px;
+    background: #ffffff;
+    @include border(top, 2px, solid, #f5f5f5);
+    &-left {
+      margin-left: 55px;
+    }
+    &-right {
+      margin-left: 90px;
+    }
+  }
+  &-bottomBr {
+    height: 180px;
+  }
+  &-footer {
+    width: 100%;
+    height: 98px;
+    background: #ffffff;
+    box-shadow: 0px 0px 6px 2px rgba(236, 236, 236, 0.31);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 38px;
+    padding-right: 38px;
+    &-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    &-image {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+    }
+    &-title {
+      font-size: 28px;
+      font-weight: 400;
+      color: #999999;
+    }
+    &-btn {
+      width: 160px;
+      height: 60px;
+      text-align: center;
+      line-height: 60px;
+      border-radius: 10px;
+      background: #0a74e9;
+      color: #fff;
+      font-size: 28px;
+      opacity: 1;
+    }
+  }
+}

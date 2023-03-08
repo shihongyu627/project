@@ -1,0 +1,295 @@
+@import "../../style/theme.scss";
+.page{
+}
+.box{
+  margin-top: 100px;
+}
+
+.emptyBox {
+  text-align: center;
+}
+
+.map{
+  width:100%;
+  height: 300px;
+}
+.icons{
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  // background: rgba(0%, 0%,0%,0);
+  top: 50%;
+  left: 50%;
+  transform: translate(-35px,-60px)
+}
+.correctBtn{
+  position: fixed;
+  bottom: 240px;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 0px 49px 0px rgba(196,196,196,0.31);
+  border-radius:10px;
+  width: 60%;
+  left: 20%;
+  .correct_item{
+    text-align: center;
+    margin-top: 63px;
+    margin-bottom: 44px;
+    font-size:28px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(41,41,41,1);
+  }
+  .scan{
+    width:50%;
+    height:68px;
+    background:$theme-color;
+    border-radius:10px;
+    font-size:24px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: 68px;
+    margin: 0 auto;
+  }
+  .kong{
+    height: 63px;
+  }
+}
+
+.order{
+  width: 80%;
+  height:74px;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 0px 84px 0px rgba(196,196,196,0.2);
+  border-radius:10px;
+  position: fixed;
+  bottom: 170px;
+  line-height: 74px;
+  text-align: center;
+  font-size:24px;
+  font-family:PingFang SC;
+  font-weight:bold;
+  color:rgba(81,81,81,1);
+  left: 10%;
+}
+
+.ad_box{
+  width: 90%;
+  height: 120px;
+  background: none;
+  margin: 20px auto;
+  overflow: hidden;
+  swiper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .ad_icon {
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #eee;
+    }
+  }
+}
+
+.use_box{
+  text-align:center;
+  width:90%;
+  margin: 20px auto;
+  background: #fff;
+  padding:0;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #eee;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  left: 5%;
+  .use_t{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin:20px 0px 0px 40px;
+    color: $theme-color;
+    font-size:24px;
+  }
+  .show_box {
+    display: flex;
+    flex-direction: column;
+    margin:30px 0;
+    .num_box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .num_b {
+        flex:1;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:15px 0;
+        .num_t {
+          color: #000;
+          font-size:38px;
+          width: 100%;
+          font-weight: bold;
+        }
+        .num_t2 {
+          font-size:26px;
+          color: #888;
+        }
+      }
+    }
+  }
+  .btn_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top:1px solid #eee;
+    .btn_b {
+      flex:1;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding:15px;
+      .btn_img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+      }
+      .btn_t {
+        color: #888;
+        font-size:23px;
+        margin: 5px;
+      }
+      .btn_t2 {
+        font-size:30px;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+.tool_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align:center;
+  // overflow: hidden;
+  width: 90px;
+  // height: 320px;
+  position: fixed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  right: 30px;
+  top: 360px;
+  background: #fff;
+  // border: 1px solid #eee;
+  // box-shadow: 0 0 10px #eee;
+  border-radius: 8px;
+  .icon {
+    flex:1;
+    width:45px;
+    height:45px;
+    margin:20px;
+  }
+}
+
+.user_box{
+  text-align:right;
+  width: 200px;
+  height: 90px;
+  border-radius: 45px;
+  position: fixed;
+  bottom: 180px;
+  left:-100px;
+  background: #fff;
+  // border: 1px solid #eee;
+  // box-shadow: 0 0 10px #eee;
+  // overflow: hidden;
+  .user_icon {
+    float: right;
+    width:50px;
+    height:50px;
+    margin: 20px;
+    margin-right: 30px;
+  }
+}
+.submit_box_stop{
+ 
+  text-align:center;
+  width: 100%;
+  position: fixed;
+  bottom: 20px;
+  background-color: rgba(0%,0%,0%,0);
+  .submit_btn_stop{
+    display: flex;
+    width:90%;
+    height:126px;
+    line-height: 126px;
+    border-radius:10px;
+    font-size: 30px;
+    font-family:PingFang SC;
+    font-weight:500;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow:0px 5px 20px 0px rgba(196,196,196,0.8);
+    border-color: #ffffff;
+    // text-align: center;
+  }
+  .stopImg{
+    width: 70px;
+    height: 70px;
+    margin-top: 26px;
+    margin-left: 26px;
+  }
+  .stop_item{
+    color: #282828;
+    font-size: 29px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 43px;
+  }
+  .stop_item_btn{
+    color: #999;
+    font-size: 29px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 203px;
+  }
+  .stop_wp{
+    color: #7b7b7b;
+    font-size: 27px;
+  }
+}
+
+.submit_box{
+  text-align:center;
+  width: 100%;
+  position: fixed;
+  bottom: 50px;
+  background-color: rgba(0%,0%,0%,0);
+  .submit_btn{
+    width:90%;
+    // height: 52px;
+    // font-size: 32px;
+    // border-radius: 52px;
+    // border: none;
+    height:112px;
+    line-height: 112px;
+    border-radius:10px;
+    font-size:34px;
+    font-family:PingFang SC;
+    font-weight:500;
+    margin: 0 auto;
+    color:rgba(255,255,255,1);
+    background:$theme-color;
+    box-shadow:0px 5px 20px 0px rgba(196,196,196,0.8);
+    border-color: $theme-color;
+  }
+}

@@ -1,0 +1,72 @@
+@import "@styles/theme.scss";
+.AdvList {
+  width: 710px;
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  &-top {
+    width: 100%;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 20px;
+    &-header {
+      width: 657px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      &-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &-title {
+          font-size: 32px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #14171a;
+          opacity: 1;
+        }
+      }
+
+    }
+    &-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 657px;
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #969799;
+      opacity: 1;
+      margin: 0 auto;
+    }
+    &-btnBox {
+      width: 657px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 10px;
+      &-btn {
+        height: 60px;
+        background: #ffffff;
+        opacity: 1;
+        border-radius: 30px;
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: normal;
+        line-height: 60px;
+        color: #333;
+        opacity: 1;
+        text-align: center;
+      }
+    }
+  }
+}

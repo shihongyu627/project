@@ -1,0 +1,160 @@
+{
+  "name": "rnshell",
+  "displayName": "象寓",
+  "config": {
+    "pack_style": "merge",
+    "image": "@kafudev/react-native-shell@0.66.4-beta.40",
+    "framework": "react-native",
+    "platform": ["ios", "android", "web", "miniapp"],
+    "info": {
+      "ios": {
+        "bundle_id": "com.flat.xy",
+        "version_code": "",
+        "version_name": "1.2.0",
+        "icon": "",
+        "splash": ""
+      },
+      "android": {
+        "package_id": "com.flat.xy",
+        "version_code": "",
+        "version_name": "1.2.0",
+        "icon": "",
+        "splash": ""
+      }
+    },
+    "build": {
+      "ios": {
+        "release": "yarn build-ios",
+        "debug": "yarn build-ios-debug"
+      },
+      "android": {
+        "release": "yarn build-android",
+        "debug": "yarn build-android-debug"
+      }
+    },
+    "modules": {
+      "dokit": {
+        "enable": true,
+        "config": {
+          "appid": "0d2d8b2394099df910ab59e6930bb7a4"
+        }
+      },
+      "bugly": {
+        "enable": true,
+        "config": {
+          "ios": {
+            "appid": "639e71c006",
+            "appkey": "b08733d0-9b3e-432d-a692-ac5393021215"
+          },
+          "android": {
+            "appid": "1abff57b46",
+            "appkey": "76dd67b5-1d46-4522-9089-9e0957cbaf05"
+          }
+        }
+      },
+      "jpush": {
+        "enable": true,
+        "config": {
+          "appkey": "033ae50a0f5144946dc9111d",
+          "channel": "appstore",
+          "production": false
+        }
+      },
+      "qiyu": {
+        "enable": false,
+        "config": {
+          "appKey": ""
+        }
+      },
+      "wechat": {
+        "enable": true,
+        "config": {
+          "appid": "wxc00d35f1ce60f836",
+          "universallink": "https://app.hnxiangyu.net/",
+          "gh": "gh_7e25c77abacc",
+          "CFBundleURLSchemes": "wxc00d35f1ce60f836"
+        }
+      },
+      "alipay": {
+        "enable": true,
+        "config": {
+          "appid": "",
+          "CFBundleURLSchemes": "alixiangyu"
+        }
+      },
+      "txlive": {
+        "enable": false,
+        "config": {
+          "licence_key": "",
+          "licence_url": ""
+        }
+      },
+      "codepush": {
+        "enable": false,
+        "config": {
+          "ios": {
+            "key": "GfhdBX0IkaomszNofXyubKTyl6q2ayiJwHfcH"
+          },
+          "android": {
+            "key": "RN1mJCHb6pZOVU5TgVo7SPH55DTwH4EHz2DtP"
+          }
+        }
+      },
+      "appcenter": {
+        "enable": false,
+        "config": {
+          "ios": {
+            "key": "14a08c52-079e-4a58-a6f9-c4aeec93550b"
+          },
+          "android": {
+            "key": "4e36fa64-20e3-4230-a2c9-32428b6ced59"
+          }
+        }
+      },
+      "xiaomi": {
+        "enable": true,
+        "config": {
+          "appid": "",
+          "appkey": ""
+        }
+      },
+      "oppo": {
+        "enable": true,
+        "config": {
+          "appid": "",
+          "appkey": "",
+          "appsecret": ""
+        }
+      },
+      "vivo": {
+        "enable": true,
+        "config": {
+          "appid": "105545326",
+          "appkey": "76ca50f641ca5414e2248f79d63ee70a"
+        }
+      },
+      "firim": {
+        "enable": true,
+        "config": {
+          "api_key": "",
+          "api_user": ""
+        }
+      },
+      "pgyer": {
+        "enable": true,
+        "config": {
+          "api_key": "469f2987b4bb1eb2d826df2c31624ffc",
+          "api_user": "3e98a606c3614770b06b044af8ec8c1d"
+        }
+      }
+    },
+    "dependencies": {
+      "react-native-flipper": "0.127.0",
+      "react-native-syan-image-picker": "0.4.10",
+      "jverification-react-native": "2.5.5"
+    },
+    "removeDependencies": {
+      "react-native-blob-courier": "*"
+    }
+  }
+}

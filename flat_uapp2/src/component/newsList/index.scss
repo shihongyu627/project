@@ -1,0 +1,106 @@
+@import "@styles/theme.scss";
+.newsList {
+  width: 710px;
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  position: relative;
+
+  &-top {
+    width: 100%;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 20px;
+    &-header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 44px;
+      padding-top: 30px;
+      &-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &-imgBox {
+          position: relative;
+          width: 52px;
+          height: 52px;
+          margin-right: 24px;
+          &-radio {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background: red;
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+          }
+        }
+        &-img {
+          width: 52px;
+          height: 52px;
+          border-radius: 52px;
+          opacity: 1;
+        }
+        &-title {
+          font-size: 32px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #14171a;
+          opacity: 1;
+        }
+      }
+      &-right {
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #c7c7c7;
+        opacity: 1;
+        margin-right: 44px;
+      }
+    }
+    &-content {
+      width: 616px;
+      font-size: 28px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #747474;
+      opacity: 1;
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+  }
+  &-bottom {
+    width: 100%;
+    height: 88px;
+    background: #fff;
+    opacity: 1;
+    border-radius: 0px 0px 20px 20px;
+    &-br {
+      @include border(top, 2px, solid, #f2f2f2f2);
+      width: 616px;
+      height: 88px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      &-title {
+        font-size: 28px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #747474;
+        opacity: 1;
+      }
+      &-icon {
+        width: 52px;
+        height: 52px;
+        background: rgba(255, 255, 255, 0);
+        opacity: 1;
+      }
+    }
+  }
+}

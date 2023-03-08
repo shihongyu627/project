@@ -1,0 +1,113 @@
+@import '../styles/common.less';
+@import '~view-design/src/styles/index.less';
+
+
+@body-background: #f5f7fa;
+
+
+// menu配色
+.@{menu-prefix-cls} {
+    &-light{
+        background: #fff;
+    }
+    &-dark{
+        color: #fff;
+        background: #303954;
+    }
+    &-dark&-vertical &-item, &-dark&-vertical &-submenu-title{
+        &-active:not(.@{menu-prefix-cls}-submenu):hover
+        {
+            background: #2d8cf0;
+        }
+        &-active:not(.@{menu-prefix-cls}-submenu){
+            color: #fff;
+            background: #2d8cf0;
+        }
+    }
+    &-dark&-vertical &-opened{
+        background: none;
+        .@{menu-prefix-cls}-submenu-title{
+            background: none;
+        }
+    }
+}
+
+// @form-prefix-cls: ~"@{css-prefix}form";
+// @form-item-prefix-cls: ~"@{form-prefix-cls}-item";
+// // form表单 标签外边距
+// .@{form-prefix-cls} .@{form-item-prefix-cls}-label {
+//   text-align: right;
+//   vertical-align: middle;
+//   float: left;
+//   font-size: @font-size-small;
+//   color: @text-color;
+//   line-height: 1;
+//   padding: 10px 26px 10px 10px;
+//   box-sizing: border-box;
+// }
+
+
+// // switch 切换开关
+// .@{switch-prefix-cls} {
+//     // small变大
+//     &-small {
+//         width: 32px;
+//         height: 16px;
+//         line-height: 14px;
+//         &:after {
+//             width: 14px;
+//             height: 14px;
+//             top: 0;
+//             left: 0;
+//         }
+//         &:active:after {
+//             width: 20px;
+//         }
+//     }
+
+//     &-small&-checked:after {
+//         left: 16px;
+//     }
+
+//     &-small:active&-checked:after {
+//         left: 8px;
+//     }
+// }
+
+// tag 标签 dot样式高度
+.@{tag-prefix-cls} {
+    //  dot样式高度
+    &-dot{
+        height: 24px;
+        line-height: 24px;
+        border: 1px solid @border-color-split !important;
+        color: @text-color !important;
+        background: #fff !important;
+        padding: 0 6px;
+
+        &-inner{
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 4px;
+            border-radius: 50%;
+            background: @border-color-split;
+            position: relative;
+            top: 1px;
+        }
+        .@{tag-close-prefix-cls} {
+            color: #666 !important;
+            margin-left: 12px !important;
+        }
+    }
+}
+
+// breadcrumb面包屑粗体
+.@{breadcrumb-prefix-cls} {
+
+    & > span:last-child {
+        font-weight: 500;
+        color: @text-color;
+    }
+
+}

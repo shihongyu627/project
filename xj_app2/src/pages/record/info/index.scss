@@ -1,0 +1,172 @@
+@import "@styles/theme.scss";
+page {
+  background: #f7f7f7;
+}
+.recordInfo {
+  width: 100%;
+  position: relative;
+  background: #f7f7f7;
+  height: 100%;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  &-title {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  &-titleRn_box {
+    width: 714px;
+    height: 80px;
+    background: #dcebfb;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    &-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  &-titleRn {
+    font-size: 28px;
+    font-weight: 400;
+    color: #0a75e8;
+    width: 500px;
+    &-stitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 20px;
+      color: #0a75e8;
+    }
+  }
+  &-stitleRn {
+    font-size: 28px;
+    font-weight: 400;
+    color: #0a75e8;
+  }
+  &-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &-image {
+      width: 25px;
+      height: 14px;
+      margin-left: 20px;
+    }
+  }
+  &-logBox {
+    background: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 30px;
+  }
+  &-signBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    &-signNamePng {
+      width: 200px;
+      height: 140px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    &-modal {
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 20px;
+        &-reset {
+        }
+        &-save {
+          margin-left: 20px;
+          margin-right: 60px;
+        }
+      }
+    }
+  }
+  &-itemBox {
+    background: #fff;
+  }
+  &-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding-left: 20px;
+    &-title {
+      font-size: 28px;
+      font-weight: 400;
+      color: #333333;
+    }
+    &-content {
+      width: 535px;
+      font-size: 28px;
+      font-weight: 400;
+      color: #666666;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &-btn {
+    width: 674px;
+    height: 90px;
+    background: #0a74e9;
+    border-radius: 6px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 65px;
+  }
+  &-btnOne {
+    width: 674px;
+    height: 90px;
+    background: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #0a74e9;
+    font-size: 28px;
+    font-weight: 600;
+    color: #0a74e9;
+    line-height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 105px;
+  }
+  &-btnTwo {
+    width: 674px;
+    height: 90px;
+    background: #0a74e9;
+    border-radius: 6px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 40px;
+    line-height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}

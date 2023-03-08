@@ -1,0 +1,67 @@
+@import "@styles/theme.scss";
+.userAboutApp {
+  background: #fff;
+  height: 100%;
+  &-br {
+    height: 2px;
+    background: #f7f7f7;
+    width: 100%;
+  }
+  &-iconBox {
+    width: 160px;
+    height: 160px;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 90px;
+    &-icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 14px;
+    }
+  }
+  &-title {
+    width: 560px;
+    margin: 0 auto;
+    font-size: 50px;
+    color: #001118;
+    margin-top: 27px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  &-titleTwo {
+    width: 686px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 400;
+    color: #001118;
+    margin-top: 20px;
+  }
+  &-titleThree {
+    width: 635px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0A74E9;
+    margin-top: 15px;
+  }
+  &-footerBox {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    &-banquan {
+      color: #2fd7bd;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    &-gongsi {
+      color: #000;
+      font-size: 26px;
+      text-align: center;
+    }
+  }
+}

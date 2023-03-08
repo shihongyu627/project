@@ -1,0 +1,140 @@
+{
+  "name": "rnshell",
+  "displayName": "小金刚",
+  "config": {
+    "pack_style": "merge",
+    "image": "@kafudev/react-native-shell@0.66.4-beta.40",
+    "framework": "react-native",
+    "platform": ["ios", "android", "web", "miniapp"],
+    "info": {
+      "ios": {
+        "bundle_id": "com.flat.xym",
+        "version_code": "",
+        "version_name": "1.2.0",
+        "icon": "",
+        "splash": ""
+      },
+      "android": {
+        "package_id": "com.flat.xym",
+        "version_code": "",
+        "version_name": "1.2.0",
+        "icon": "",
+        "splash": ""
+      }
+    },
+    "build": {
+      "ios": {
+        "release": "yarn build-ios",
+        "debug": "yarn build-ios-debug"
+      },
+      "android": {
+        "release": "yarn build-android",
+        "debug": "yarn build-android-debug"
+      }
+    },
+    "modules": {
+      "dokit": {
+        "enable": true,
+        "config": {
+          "appid": "0d2d8b2394099df910ab59e6930bb7a4"
+        }
+      },
+      "bugly": {
+        "enable": true,
+        "config": {
+          "ios": {
+            "appid": "7abeb768c3",
+            "appkey": "252bb77c-7bf8-411f-bf80-ee95591450f3"
+          },
+          "android": {
+            "appid": "271e4a1963",
+            "appkey": "3b815e1b-7e11-4ae4-944b-45030bdb5d5b"
+          }
+        }
+      },
+      "jpush": {
+        "enable": true,
+        "config": {
+          "appkey": "b12293e0da3a860f23025d88",
+          "channel": "appstore",
+          "production": false
+        }
+      },
+      "qiyu": {
+        "enable": false,
+        "config": {
+          "appKey": ""
+        }
+      },
+      "txlive": {
+        "enable": false,
+        "config": {
+          "licence_key": "",
+          "licence_url": ""
+        }
+      },
+      "codepush": {
+        "enable": false,
+        "config": {
+          "ios": {
+            "key": "2JRiO-VhGi5h70qbteZQeEtXwYsRSzx9Vc5Fz"
+          },
+          "android": {
+            "key": "Ax4x3Yl3NPStzxC4oi7W1iS4vJRM-Rk0fMwxn"
+          }
+        }
+      },
+      "appcenter": {
+        "enable": false,
+        "config": {
+          "ios": {
+            "key": "5f64409e-85e0-429c-bcba-f0f87043cc1b"
+          },
+          "android": {
+            "key": "22565e8b-6f55-436a-88dd-34a235b18dc2"
+          }
+        }
+      },
+      "xiaomi": {
+        "enable": true,
+        "config": {
+          "appid": "",
+          "appkey": ""
+        }
+      },
+      "oppo": {
+        "enable": true,
+        "config": {
+          "appid": "",
+          "appkey": "",
+          "appsecret": ""
+        }
+      },
+      "vivo": {
+        "enable": true,
+        "config": {
+          "appid": "",
+          "appkey": ""
+        }
+      },
+      "firim": {
+        "enable": true,
+        "config": {
+          "api_key": "",
+          "api_user": ""
+        }
+      },
+      "pgyer": {
+        "enable": true,
+        "config": {
+          "api_key": "469f2987b4bb1eb2d826df2c31624ffc",
+          "api_user": "3e98a606c3614770b06b044af8ec8c1d"
+        }
+      }
+    },
+    "dependencies": {
+      "react-native-flipper": "0.127.0",
+      "react-native-syan-image-picker": "0.4.10"
+    }
+  }
+}

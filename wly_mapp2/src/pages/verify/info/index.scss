@@ -1,0 +1,97 @@
+page {
+  background: #fff;
+}
+.userCouponInfo {
+  position: relative;
+  height: 100%;
+  background: #fff;
+  &-headerBg {
+    width: 100%;
+  }
+  &-backImgBox {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    z-index: 100;
+    left: 32px;
+    top: 55px;
+    &-backImg {
+      width: 65px;
+      height: 65px;
+    }
+  }
+  &-one {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &-two {
+    font-size: 52px;
+    color: #ff4544;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &-three {
+    font-size: 28px;
+    color: #909399;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &-Four {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &-four {
+    font-size: 28px;
+    color: #909399;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &-btn {
+    width: 500px;
+    height: 88px;
+    background: #ff4544;
+    border-radius: 44px;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 88px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 170px;
+  }
+  &-btn1{
+    background: #ccc;
+    color: #999;
+    width: 500px;
+    height: 88px;
+    border-radius: 44px;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 88px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 170px;
+  }
+}

@@ -1,0 +1,42 @@
+.feedback-box-base {
+  width: 710px;
+  background: #F8F8F8;
+  box-shadow: 0px 2px 10px 0px #DCDCDC;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: 30px 20px;
+  input {
+    font-size: 26px;
+    line-height: 37px;
+    color: #333333;
+  }
+  input::placeholder {
+    font-size: 26px;
+    font-weight: 400;
+    color: #AAAAAA;
+    line-height: 37px;
+  }
+  .feedback-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 40px;
+    margin-bottom: 21px;
+  }
+  .feedback-input {
+    width: 651px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+  .feedback-input-b {
+    height: 302px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  textarea {
+    background-color: transparent!important;
+    margin-right: 0!important;
+  }
+}

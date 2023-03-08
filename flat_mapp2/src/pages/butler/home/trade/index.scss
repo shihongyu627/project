@@ -1,0 +1,11 @@
+page{
+  background: #f4f4f4;
+}
+.tradeBox {
+  padding-bottom: 60px;
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}

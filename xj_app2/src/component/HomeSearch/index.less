@@ -1,0 +1,67 @@
+.HomeSearch {
+  width: 100%;
+  background: #ffffff;
+  &-box {
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 38px;
+    padding-right: 27px;
+    &-title {
+      font-size: 32px;
+      font-weight: 400;
+      color: #333333;
+    }
+    &-inputBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: #ececec;
+      width: 450px;
+      height: 60px;
+      border-radius: 30px;
+      overflow: hidden;
+      &-search {
+        width: 28px;
+        height: 28px;
+        margin-left: 24px;
+        margin-right: 8px;
+      }
+      &-clearPng{
+        width: 60px;
+        height: 60px;
+        margin-right: 30px;
+      }
+      &-text{
+        width: 340px;
+        height: 80px;
+      }
+    }
+    &-newsPng {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      &-num {
+        position: absolute;
+        background: #ff3a30;
+        // color: #fff;
+        right: -10px;
+        top: -10px;
+        z-index: 999;
+        // padding-left: 6px;
+        // padding-right: 6px;
+        border-radius: 50px;
+        // font-size: 20px;
+        // font-weight: 400;
+        // color: #ffffff;
+        // text-align: center;
+      }
+    }
+    &-filterPng {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}

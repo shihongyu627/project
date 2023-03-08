@@ -1,0 +1,22 @@
+.uploadImage_Item1 {
+  width: 200px;
+  height: 200px;
+}
+.uploadImage_ItemBox{
+  background: #ffffff;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icon_del {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  z-index: 999;
+}

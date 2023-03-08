@@ -1,0 +1,97 @@
+@import "@styles/theme.scss";
+.DoorLockList {
+  width: 710px;
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 28px;
+  &-top {
+    width: 676px;
+    height: 270px;
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+    &-img {
+      width: 670px;
+      height: 270px;
+      background: rgba(0, 0, 0, 0);
+      opacity: 1;
+      border-radius: 12px;
+    }
+  }
+  &-right {
+    width: 670px;
+    margin: 0 auto;
+    &-title {
+      width: 670px;
+      font-size: 32px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #2a3549;
+      opacity: 1;
+      margin-top: 15px;
+      &-text {
+        width: 670px;
+        font-size: 32px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #2a3549;
+        opacity: 1;
+      }
+    }
+    &-content {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 25px;
+      &-img {
+        width: 40px;
+        height: 40px;
+        margin-right: 14px;
+      }
+      &-txt {
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: normal;
+        color: #747474;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+      }
+    }
+    &-bottom {
+      width: 676px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      &-btn {
+        width: 166px;
+        height: 60px;
+        background: #efce98;
+        /*  #ifndef  rn  */
+        background: linear-gradient(93deg, #ffe9be 0%, #efce98 100%);
+        /*  #endif  */
+        opacity: 1;
+        border-radius: 30px;
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: normal;
+        line-height: 60px;
+        color: #5f411b;
+        opacity: 1;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+page{
+  // background: #fff;
+}
+.searchBox{
+  padding-bottom: 60px;
+
+  &-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    background: #fff;
+    opacity: 1;
+    border-radius: 44px;
+    width: 710px;
+    margin: 0 auto;
+    margin-top: 15px;
+    &-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &-icon {
+        width: 29px;
+        height: 29px;
+        margin-left: 34px;
+        margin-right: 18px;
+      }
+      &-text {
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: normal;
+        color: #333;
+        opacity: 1;
+        width: 500px;
+        height: 100%;
+      }
+    }
+    &-btn {
+      width: 88px;
+      height: 48px;
+      background: #fea02b;
+      opacity: 1;
+      border-radius: 44px;
+      font-size: 22px;
+      font-family: PingFang SC;
+      font-weight: normal;
+      line-height: 48px;
+      color: #ffffff;
+      opacity: 1;
+      text-align: center;
+      margin-right: 15px;
+    }
+  }
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,12 @@
+@import "@styles/theme.scss";
+page {
+  background: #F4F4F4;
+}
+.agreement {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  &-bottomBr {
+    height: 190px;
+  }
+}

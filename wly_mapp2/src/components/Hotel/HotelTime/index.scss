@@ -1,0 +1,32 @@
+.hotel-search-card-time {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 28px 62px 0;
+  .hotel-search-card-time-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    .hotel-search-card-time-title {
+      font-size: 28px;
+      font-weight: 400;
+      color: #777777;
+      line-height: 40px;
+    }
+    .hotel-search-card-time-value {
+      font-size: 38px;
+      font-weight: 500;
+      color: #333333;
+      line-height: 53px;
+      margin-top: 10px;
+    }
+  }
+  .hotel-search-card-time-tip {
+    font-size: 28px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 48px;
+  }
+}

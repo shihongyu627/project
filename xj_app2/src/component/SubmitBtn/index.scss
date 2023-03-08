@@ -1,0 +1,47 @@
+.SubmitBtn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  height: 154px;
+  background: #ffffff;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  &-title {
+    width: 710px;
+    height: 96px;
+    /*  #ifndef  rn  */
+    background: linear-gradient(73deg, #d7d52f, #00dc80);
+    /*  #endif  */
+    opacity: 1;
+    border-radius: 48px;
+    margin: 0 auto;
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 96px;
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+  }
+  &-titles{
+    width: 710px;
+    height: 96px;
+    opacity: 1;
+    border-radius: 48px;
+    margin: 0 auto;
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 96px;
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    background: #0A74E9;
+  }
+}

@@ -1,0 +1,17 @@
+@import "@styles/theme.scss";
+
+.doorLockCreate {
+  background: #f4f4f4;
+  height: 100%;
+  position: relative;
+  &-br {
+    height: 20px;
+  }
+  &-box {
+    border-radius: 20px;
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    margin: 0 auto;
+  }
+}

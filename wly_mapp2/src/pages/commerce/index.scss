@@ -1,0 +1,52 @@
+.commerce-box {
+  .banner-box {
+    width: 750px;
+    height: 750px;
+    margin-bottom: 30px;
+    .banner-item-box {
+      position: relative;
+      .commerce-image {
+        width: 750px;
+        height: 750px;
+      }
+      .commerce-image-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 750px;
+        height: 153px;
+        background: rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        padding-left: 37px;
+        .commerce-image-info-title {
+          font-size: 38px;
+          font-weight: 500;
+          color: #FFFFFF;
+          line-height: 53px;
+          margin-top: 33px;
+        }
+        .commerce-image-info-tip {
+          font-size: 26px;
+          font-weight: 500;
+          color: #FFFFFF;
+          line-height: 37px;
+        }
+      }
+    }
+  }
+  .notice-box {
+    margin: 30px 20px;
+    width: 710px;
+    height: 65px;
+    background: rgba(255, 104, 51, 0.1);
+    border-radius: 33px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #777777;
+    .at-noticebar__content-inner {
+      line-height: 44px;
+    }
+  }
+}

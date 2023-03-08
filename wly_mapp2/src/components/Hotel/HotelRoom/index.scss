@@ -1,0 +1,53 @@
+.hotel-room-detail {
+  border-radius: 30px 30px 0 0;
+  .hotel-room-banner {
+    width: 750px;
+    height: 420px;
+    .banner-item {
+      .detail-image {
+        width: 750px;
+        height: 420px;
+      }
+    }
+  }
+  .roomName {
+    text-align: center;
+  }
+  .room-title {
+    color: #000;
+    font-weight: 600;
+  }
+  .hotel-room-Info {
+    width: 750px;
+  }
+  .room-contentBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .room-contentItem {
+    margin-right: 50px;
+    color: #000;
+  }
+  .room-tabItem {
+    margin-right: 50px;
+    color: #000;
+    width: 135px;
+  }
+  .room-content{
+    color: #000;
+  }
+  .footerBtn{
+    margin-bottom: 40px;
+  }
+}
+.at-float-layout__container {
+  height: 90vh;
+  max-height: 90vh;
+  border-radius: 30px 30px 0 0;
+  overflow: hidden;
+}
+.at-float-layout .layout-body__content {
+  max-height: 90vh;
+}

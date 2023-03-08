@@ -1,0 +1,11 @@
+page{
+  background: #F4F4F4;
+}
+.cleanBox{
+  padding-bottom: 60px;
+  padding-top: 20px;
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+  }
+}

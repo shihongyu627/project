@@ -1,0 +1,108 @@
+@import "@styles/theme.scss";
+.ItemNews {
+  width: 714px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-top: 15px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  &-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 680px;
+    margin: 0 auto;
+  }
+  &-imageBox {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    margin-right: 15px;
+    position: relative;
+    &-tip {
+      position: absolute;
+      background: #ff3a30;
+      color: #fff;
+      right: 5px;
+      top: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-radius: 30px;
+      font-size: 22px;
+      font-weight: 400;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+  &-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+  }
+  &-right {
+    &-title {
+      font-size: 28px;
+      font-weight: 400;
+      color: #333333;
+    }
+    &-creat_time {
+      font-size: 20px;
+      font-weight: 400;
+      color: #999999;
+      margin-top: 5px;
+    }
+  }
+  &-bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    &-box {
+      width: 680px;
+      background: #f6f6f6;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    &-title {
+      width: 540px;
+      height: 80px;
+      flex-direction: row;
+      align-items: center;
+      display: flex;
+      padding-left: 20px;
+      padding-right: 25px;
+      @include border(bottom, 1px, solid, #e1e1e1);
+    }
+    &-content {
+      width: 714px;
+      background: #f6f6f6;
+      padding-bottom: 20px;
+      padding-top: 10px;
+      &-box {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-left: 20px;
+        padding-right: 25px;
+        margin-top: 5px;
+      }
+      &-title {
+        font-size: 24px;
+        font-weight: 400;
+        color: #666666;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      &-text {
+        width: 520px;
+        font-size: 24px;
+        font-weight: 400;
+        color: #666666;
+      }
+    }
+  }
+}

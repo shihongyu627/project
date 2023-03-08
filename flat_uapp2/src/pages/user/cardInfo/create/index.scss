@@ -1,0 +1,83 @@
+@import "@styles/theme.scss";
+
+.cardInfoCreate {
+  background: #f4f4f4;
+  height: 100%;
+  position: relative;
+
+  &-br {
+    height: 20px;
+  }
+  &-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 68px;
+    background: #ffeeda;
+    opacity: 1;
+    &-img {
+      width: 28px;
+      height: 28px;
+      opacity: 1;
+      margin-right: 8px;
+    }
+    &-text {
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #5f411b;
+      opacity: 1;
+    }
+  }
+  &-box {
+    border-radius: 20px;
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    margin: 0 auto;
+    padding-bottom: 36px;
+    &-title {
+      font-size: 30px;
+      font-family: PingFang SC;
+      color: #000000;
+      opacity: 1;
+    }
+    &-uploadBox{
+      width: 710px;
+      background: #ffffff;
+      opacity: 1;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    &-imageBox {
+      width: 308px;
+      height: 274px;
+      &-title {
+        font-size: 22px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #969799;
+        opacity: 0.6;
+        margin-top: 24px;
+        margin-bottom: 10px;
+      }
+      &-imageItem{
+        width: 308px;
+        height: 274px;
+      }
+    }
+  }
+}
+.bottomBr {
+  height: 190px;
+}
+.bottomBrs {
+  height: 100%;
+}

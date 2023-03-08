@@ -1,0 +1,28 @@
+.navBar_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 135px;
+  align-items: flex-end;
+  &-back {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    left: 20px;
+  }
+  &-title {
+    font-size: 34px;
+    color: #fff;
+    opacity: 1;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  &-right{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    right: 0.35rem;
+  }
+}

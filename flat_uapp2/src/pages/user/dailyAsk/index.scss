@@ -1,0 +1,52 @@
+@import "@styles/theme.scss";
+
+.dailyAsk {
+  background: #f4f4f4;
+  height: 100%;
+  position: relative;
+
+  &-br {
+    height: 20px;
+  }
+
+  &-box {
+    border-radius: 20px;
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  &-title_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 710px;
+    height: 124px;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  &-title_icon {
+    width: 54px;
+    height: 46px;
+    margin-right: 22px;
+  }
+  &-title {
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #14171a;
+    opacity: 1;
+  }
+}
+.bottomBr {
+  height: 190px;
+}
+.bottomBrs {
+  height: 100%;
+}

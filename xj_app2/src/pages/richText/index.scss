@@ -1,0 +1,17 @@
+@import "@styles/theme.scss";
+page {
+  background: #f7f7f7;
+}
+.RichTextBox {
+  width: 100%;
+  position: relative;
+  background: #f7f7f7;
+  &-wreapp {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background: #fff;
+    margin-top: 10px;
+  }
+}

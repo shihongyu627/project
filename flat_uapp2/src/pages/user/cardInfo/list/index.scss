@@ -1,0 +1,111 @@
+.cardInfoBox {
+  background: #f4f4f4;
+  height: 100%;
+  position: relative;
+  &-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 68px;
+    background: #ffeeda;
+    opacity: 1;
+    &-img {
+      width: 28px;
+      height: 28px;
+      opacity: 1;
+      margin-right: 8px;
+    }
+    &-text {
+      font-size: 26px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #5f411b;
+      opacity: 1;
+    }
+  }
+  &-house {
+    width: 710px;
+    height: 180px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    &-bg {
+      width: 710px;
+      height: 100%;
+    }
+    &-content {
+      width: 710px;
+      height: 180px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding-left: 32px;
+      padding-right: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &-title {
+        font-size: 26px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #ffffff;
+        opacity: 0.6;
+      }
+      &-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 10px;
+        &-address {
+          font-size: 32px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #ffffff;
+          opacity: 1;
+        }
+        &-right {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+          width: 122px;
+          height: 48px;
+          background: #efce98;
+          /*  #ifndef  rn  */
+          background: linear-gradient(93deg, #ffe9be 0%, #efce98 100%);
+          /*  #endif  */
+          opacity: 1;
+          border-radius: 28px;
+          &-img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+          }
+          &-text {
+            font-size: 24px;
+            font-family: PingFang SC;
+            font-weight: 400;
+            color: #5f411b;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  &-bottomBr {
+    height: 190px;
+  }
+  &-topBr {
+    height: 20px;
+  }
+}

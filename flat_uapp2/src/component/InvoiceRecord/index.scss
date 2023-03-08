@@ -1,0 +1,116 @@
+@import "@styles/theme.scss";
+.InvoiceRecord {
+  width: 710px;
+  background: #ffffff;
+  opacity: 1;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+  &-top {
+    width: 657px;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 0 auto;
+    &-header {
+      @include border(bottom, 2px, solid, #f2f2f2f2);
+      width: 657px;
+      height: 82px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      &-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &-img {
+          width: 40px;
+          height: 40px;
+          opacity: 1;
+          margin-right: 16px;
+        }
+        &-title {
+          font-size: 30px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #14171a;
+          opacity: 1;
+        }
+        &-titles {
+          opacity: 0.4;
+        }
+      }
+      &-right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 26px;
+        &-title {
+          font-size: 24px;
+          font-family: PingFang SC;
+          font-weight: bold;
+          color: #14171a;
+          opacity: 1;
+          display: flex;
+          flex-direction: row;
+        }
+        &-titles {
+          opacity: 0.4;
+        }
+        &-icon {
+          width: 32px;
+          height: 32px;
+          background: rgba(255, 255, 255, 0);
+          opacity: 1;
+        }
+      }
+    }
+    &-content {
+      display: flex;
+      flex-direction: row;
+      font-size: 24px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      color: #969799;
+      opacity: 1;
+      margin-top: 10px;
+    }
+    &-statusName {
+      font-size: 28px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      color: #FFAB3D;
+      opacity: 1;
+    }
+    &-statusNamees {
+      color: #eb5c20;
+    }
+    &-statusNames {
+      opacity: 0.4;
+    }
+  }
+  &-bottombox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 657px;
+    justify-content: space-between;
+  }
+  &-left {
+    width: 98px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    &-img {
+      width: 32px;
+      height: 32px;
+      margin-top: 26px;
+    }
+  }
+}

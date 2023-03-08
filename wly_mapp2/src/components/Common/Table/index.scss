@@ -1,0 +1,12 @@
+.table-box {
+  width: 660px;
+  border-radius: 15px;
+  overflow: hidden;
+  .table-item-line {
+    height: 80px;
+    background-color: rgba(255,104,51, 0.2);
+    &.table-item-line-color {
+      background-color: #fbfbfb;
+    }
+  }
+}

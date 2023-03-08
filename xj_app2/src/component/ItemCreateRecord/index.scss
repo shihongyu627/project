@@ -1,0 +1,142 @@
+@import "@styles/theme.scss";
+
+.ItemCreateRecord {
+  background: #fff;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 90px;
+  &-del {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  &-delBtn {
+    width: 160px;
+    height: 55px;
+    border-radius: 55px;
+    background: #0a74e9;
+    color: #fff;
+    text-align: center;
+    line-height: 55px;
+  }
+  &-title {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 20px;
+  }
+  &-box {
+    border-radius: 20px;
+    background: #ffffff;
+    opacity: 1;
+    margin: 0 auto;
+    padding-top: 20px;
+    &-title {
+      font-size: 36px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #2a3549;
+      opacity: 1;
+    }
+    &-imageBox {
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      &-imageItem {
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+        border-radius: 4px;
+        margin-right: 20px;
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+      &-title {
+        width: 644px;
+        margin: 0 auto;
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #969799;
+        opacity: 0.6;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  &-inputBox {
+    width: 674px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &-content {
+      width: 360px;
+    }
+    &-date {
+      height: 33px;
+      font-size: 24px;
+      font-weight: 400;
+      color: #999999;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    &-title {
+      font-size: 24px;
+      font-weight: 400;
+      color: #999999;
+    }
+    &-image {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &-inputBoxs {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    margin-left: 20px;
+  }
+  &-TextareaBox {
+    width: 674px;
+    background: #f2f2f2;
+    border-radius: 4px;
+    margin-top: 12px;
+    &-content {
+      height: 280px;
+      background: #f2f2f2;
+      // padding-left: 30px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      // padding-right: 30px;
+      font-size: 36px;
+    }
+  }
+  &-TextareaBoxs {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    margin-left: 20px;
+  }
+}
+.bottomBr {
+  height: 190px;
+}
+.bottomBrs {
+  height: 100%;
+}

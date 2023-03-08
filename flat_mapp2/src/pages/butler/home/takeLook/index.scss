@@ -1,0 +1,12 @@
+page {
+  background: #f4f4f4;
+}
+.TakeLookBox {
+  padding-bottom: 60px;
+  background: #f4f4f4;
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}

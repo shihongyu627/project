@@ -1,0 +1,18 @@
+page {
+  background: #F4F4F4;
+}
+.templateBox{
+  background: #F4F4F4;
+  padding-top: 20px;
+  height: 100%;
+  &-list {
+    width: 710px;
+    margin: 0 auto;
+  }
+  &-bottomBr {
+    height: 200px;
+    /*  #ifndef  rn  */
+    height: 120px;
+    /*  #endif  */
+  }
+}

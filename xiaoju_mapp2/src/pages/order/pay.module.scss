@@ -1,0 +1,713 @@
+@import "../../style/theme.scss";
+.page {
+}
+
+.box {
+  margin-top: 100px;
+}
+
+.emptyBox {
+  text-align: center;
+}
+
+.kong {
+  display: inline-block;
+  width: 10rpx;
+  line-height: 25rpx;
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+}
+
+.selectAddress {
+  width: 686px;
+  margin: 0 auto;
+  font-size: 24px;
+  margin-top: 15px;
+}
+.item_box {
+  display: flex;
+  height: 104px;
+  width: 690px;
+  line-height: 104px;
+  justify-content: space-between;
+  background: #ffffff;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  picker {
+    width: 50%;
+  }
+  .name_txt {
+    height: 104px;
+    // text-align: justify;
+    text-align-last: justify;
+    font-size: 28px;
+    line-height: 104px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: #131313;
+  }
+  .addressName {
+    margin-right: 25px;
+    text-align: left;
+    font-size: 28px;
+    width: 420px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    right: 55px;
+    position: absolute;
+    color: #707070;
+    text-align: right;
+  }
+  .address_right {
+    margin-right: 15px;
+  }
+  .addressMsg {
+    color: #cccccc;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 25px;
+  }
+}
+.picker_icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.address {
+  width: 90%;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+  top: 20px;
+  left: 5%;
+  z-index: 888888;
+  box-shadow: 0px 0px 40px 0px rgba(196, 196, 196, 0.43);
+  border-radius: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.address_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address_icon {
+  width: 25px;
+  height: 25px;
+}
+
+.address_stitle {
+  font-size: 24px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #000;
+  margin-left: 5px;
+}
+.address_title_b {
+  font-size: 32px;
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: #000;
+  margin-left: 5px;
+}
+.address_stitle_b {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: 600;
+  color: #000;
+  margin-left: 5px;
+}
+
+.address_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.address_content_icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 0px;
+}
+
+.address_content_txtwp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-family: PingFang SC;
+  // line-height: 24px;
+  font-weight: 800;
+  color: #000;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.address_content_txt {
+}
+
+.address_content_txts {
+  color: #ff5f2f;
+  font-weight: 800;
+  font-size: 32px;
+  // line-height: 24px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 5px;
+}
+
+.kong {
+  display: inline-block;
+  width: 5px;
+}
+
+.address_txt {
+  font-size: 22px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #a6a6a6;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.searchWp {
+  width: 90%;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 400px;
+  left: 5%;
+  z-index: 888888;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.search_l {
+  display: flex;
+  align-items: center;
+}
+
+.search_iconwp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 15px;
+  z-index: 6000;
+}
+
+.search_bookWp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.search_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.search_txtwp {
+  background: #fff5da;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 65px;
+  padding-right: 20px;
+  border-radius: 15px;
+  margin-left: -40px;
+  // display: block;
+}
+
+.search_txt {
+  font-size: 24px;
+  color: #a48442;
+}
+
+.search_right {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.search_book {
+  width: 40px;
+  height: 40px;
+}
+
+.blues {
+  width: 90%;
+  background: #fff;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 20px;
+  left: 5%;
+  z-index: 888888;
+  box-shadow: 0px 0px 40px 0px rgba(196, 196, 196, 0.43);
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.blues_item {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.blues_header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.blues_name {
+  font-size: 24px;
+  // font-family: PingFang SC;
+  // font-weight: 500;
+  color: #a6a6a6;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  // display: inline-block;
+}
+.blues_content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.blues_content_l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blues_content_titlewp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blues_content_title {
+  font-size: 45px;
+  color: #000;
+  font-weight: 800;
+}
+
+.blues_content_stitle {
+  font-size: 22px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #a6a6a6;
+  margin-left: 5px;
+  margin-bottom: -10px;
+}
+
+.blues_content_txt {
+  font-size: 24px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #a6a6a6;
+}
+
+.blues_text {
+  font-size: 22px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #a6a6a6;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.blues_txt {
+  font-size: 22px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ff5f2f;
+  text-align: center;
+}
+.unlockStatus_title {
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  font-family: PingFang SC;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.unlockStatus_titles {
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  font-family: PingFang SC;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.unlockStatus_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.unlockStatus_btnBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.unlockStatus_btn1 {
+  width: 480px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #a6a6a6;
+  color: #000;
+  text-align: center;
+  line-height: 80px;
+}
+.unlockStatus_btn2 {
+  width: 240px;
+  height: 80px;
+  border-radius: 10px;
+  background: #ffc821;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+}
+.unlockStatus_icon {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.unlockStatus_AtProgress {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.unlockStatus_repair {
+  width: 30px;
+  height: 30px;
+}
+.unlockStatus_txt {
+  color: #a6a6a6;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+.blues_textwp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.address_txt_icon {
+  width: 30px;
+  height: 30px;
+}
+
+.imgsBtn {
+  width: 116px;
+  height: 140px;
+  // width: 100%;
+  // margin-right: 28px;
+  text-align: center;
+  height: auto;
+}
+
+.marks_item {
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #222222;
+  font-family: PingFang SC;
+  font-weight: bold;
+  margin-top: 46px;
+}
+
+.product_name_no {
+  font-size: 28px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(62, 62, 62, 1);
+  margin-left: 15px;
+}
+
+.toothsBox {
+  display: flex;
+  // margin-top: 10px;
+  flex-direction: row;
+}
+
+.toothsLeft {
+  display: flex;
+  flex: 2;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.toothsRight {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.guizebtn {
+  width: 202px;
+  height: 56px;
+  background: #ffffff;
+  border: 2px solid #bfbfbf;
+  border-radius: 6px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #666666;
+  font-size: 26px;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.imgsBtnprice {
+  width: 32px;
+  height: 32px;
+  margin-top: 12px;
+  margin-left: 16px;
+}
+
+.prices_pay {
+  font-size: 26px;
+  margin-top: 14px;
+  margin-left: 14px;
+}
+
+.iconimgbtn {
+  width: 12px;
+  height: 22px;
+  margin-top: 18px;
+  margin-left: 12px;
+}
+
+.cars {
+  font-size: 26px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: $theme-color;
+  // margin-top: 15px;
+}
+
+.cars_tag {
+  font-size: 26px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.sonbtn {
+  width: 104px;
+  height: 34px;
+  background: rgba(117, 213, 186, 1);
+  border-radius: 17px;
+  font-size: 22px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 34px;
+}
+
+.kilometre_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payDianChe {
+  display: flex;
+}
+
+.imgDian {
+  width: 39px;
+  height: 39px;
+}
+
+.qixing {
+  font-size: 22px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(155, 155, 155, 1);
+  margin-left: 16px;
+  margin-right: 21px;
+  margin-top: 5px;
+  width: 134px;
+}
+
+.kilometre {
+  font-size: 22px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(70, 70, 70, 1);
+  margin-top: 10px;
+}
+
+.boxFtext {
+  font-size: 26px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #666666;
+  // margin-top: -10px;
+  margin-bottom: 34px;
+  text-align: left;
+}
+
+.boxBtn_pay {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 104px;
+  background: #30374d;
+  // background:  #FFC410;
+  border-radius: 10px;
+  line-height: 104px;
+  margin-bottom: 42px;
+}
+
+.recharges {
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-top: 22px;
+}
+
+.timesbtn {
+  display: flex;
+  font-size: 20px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #888888;
+  margin-left: 30px;
+  margin-top: 6px;
+}
+
+.submit_btns {
+  width: 308px;
+  display: flex;
+  height: 104px;
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #352800;
+  text-align: center;
+  line-height: 104px;
+}
+
+.subBTn {
+  width: 0px;
+  height: 0px;
+  border-bottom: 104px solid #ffc410;
+  border-left: 50px solid transparent;
+}
+
+.subBTn_zcxc {
+  width: 100%;
+  background: #ffc410;
+  font-size: 30px;
+  line-height: 104px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #352800;
+}
+
+.stopBtn {
+  display: flex;
+}
+
+.stopCar {
+  font-size: 22px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(155, 155, 155, 1);
+  margin-top: 5px;
+}
+
+.boxBtn {
+  width: 99%;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 auto;
+  background: #ffc821;
+  border-radius: 20px;
+  font-size: 32px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.submit_box_stop {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 20px;
+  background-color: rgba(0%, 0%, 0%, 0);
+  .submit_btn_stop {
+    display: flex;
+    width: 90%;
+    height: 112px;
+    line-height: 112px;
+    border-radius: 10px;
+    font-size: 27px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0px 5px 20px 0px rgba(196, 196, 196, 0.8);
+    border-color: #ffffff;
+  }
+  .stopImg {
+    width: 54px;
+    height: 54px;
+    margin-top: 28px;
+    margin-left: 26px;
+  }
+  .stop_item {
+    // color: #282828;
+    font-size: 26px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 24px;
+    margin-bottom: 14px;
+    margin-left: 22px;
+    text-align: left;
+  }
+  .stop_wp {
+    font-size: 22px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #9e9e9e;
+    margin-left: 22px;
+    text-align: left;
+  }
+}

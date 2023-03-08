@@ -1,0 +1,43 @@
+.commodity-item-box {
+  width: 350px;
+  height: 336px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 10px 0px rgba(169, 169, 169, 0.5);
+  border-radius: 15px;
+  margin-bottom: 22px;
+  overflow: hidden;
+  .commodity-image {
+    width: 350px;
+    height: 230px;
+  }
+  .commodity-place {
+    margin-top: 14px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 40px;
+  }
+  .commodity-info {
+    padding: 0 30px;
+    .commodity-name {
+      font-size: 24px;
+      font-weight: 400;
+      color: #777777;
+      line-height: 33px;
+      width: 100px;
+    }
+    .commodity-price-tip{
+      font-size: 24px;
+      font-weight: 400;
+      color: #777777;
+      line-height: 33px;
+    }
+    .commodity-price {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33px;
+    }
+  }
+}

@@ -1,0 +1,336 @@
+@import "../../style/theme.scss";
+.box {
+  margin-top: 100px;
+}
+.fault_input {
+  width: 710px;
+  height: 90px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 45px;
+  margin: 0 auto;
+  margin-top: 21px;
+  position: relative;
+  overflow: hidden;
+  input {
+    width: 526px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    // font-weight: 500;
+    // color: #cccccc;
+    // text-indent: 10px;
+    padding-left: 30px;
+    overflow: hidden;
+  }
+  .fault_input_right {
+    width: 162px;
+    height: 90px;
+    background: $theme-color;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    image {
+      width: 54px;
+      height: 54px;
+      // position: absolute;
+      // left: 62px;
+      // top: 27px;
+    }
+  }
+}
+.fault_body {
+  width: 710px;
+  background: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 16px;
+  .fault_title {
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #060606;
+    opacity: 1;
+    margin-left: 28px;
+    padding-top: 40px;
+    border-radius: 16px;
+  }
+  .fault_list {
+    // width: 100%;
+    // display: flex;
+    // // justify-content: space-around;
+    // flex-wrap: wrap;
+    // margin-top: 80px;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    margin: 0 auto;
+    // justify-content: space-around;
+
+    .fault_item {
+      // margin-left: 32px;
+      width: 213px;
+      height: 64px;
+      background: #f2f2f2;
+      text-align: center;
+      line-height: 64px;
+      border-radius: 32px;
+      font-weight: 500;
+      color: #666666;
+      font-size: 24px;
+      margin-bottom: 40px;
+      margin-left: 15px;
+    }
+    .onActive {
+      background: $theme-color;
+      color: #333333;
+      font-weight: bold;
+    }
+    .fault_item_alipay {
+      margin-left: 32px;
+      width: 213px;
+      height: 52px;
+      background: rgba(255, 255, 255, 1);
+      border: 1px solid #eeeeee;
+      text-align: center;
+      line-height: 52px;
+      border-radius: 5px;
+      font-weight: 500;
+      color: rgba(157, 157, 157, 1);
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    .onActive_alipay {
+      margin-left: 32px;
+      width: 213px;
+      height: 52px;
+      border: 1px solid #eeeeee;
+      text-align: center;
+      line-height: 52px;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 28px;
+      margin-bottom: 40px;
+      background: $theme-color;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  .at-image-picker {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.fault_submit_box {
+  width: 100%;
+  height: 160px;
+  background: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+.fault_submit {
+  width: 710px;
+  height: 96px;
+  background: linear-gradient(102deg, #fce63e 0%, #f6ce36 100%);
+  border-radius: 48px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  line-height: 96px;
+}
+
+.fault_pick {
+  // width: 100%;
+  height: 100%;
+  background: #ffffff;
+  padding-left: 31px;
+  padding-bottom: 20px;
+}
+.photo_box {
+  width: 710px;
+  background: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.photo {
+  height: 100px;
+  line-height: 100px;
+  padding-left: 32px;
+  background: #ffffff;
+  font-size: 32px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #060606;
+  border-radius: 16px;
+  .required {
+    font-size: 28px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: $theme-color;
+  }
+}
+.fault_area {
+  width: 710px;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-top: 20px;
+  background: #ffffff;
+  margin-bottom: 180px;
+  .fault_area_title {
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: #060606;
+    opacity: 1;
+    padding-top: 32px;
+    margin-left: 32px;
+  }
+  .testea {
+    padding: 35px;
+    height: 130px;
+  }
+}
+.mapsets {
+  padding-left: 31px;
+  margin-top: 32px;
+  background: #ffffff;
+  font-size: 32px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #060606;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  margin-bottom: 20px;
+  .location_wp {
+    display: flex;
+    margin-left: 31px;
+    font-size: 26px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(100, 100, 100, 1);
+  }
+  .imgBtns {
+    width: 42px;
+    height: 42px;
+    margin-right: 29px;
+  }
+  .location_item {
+    font-size: 22px;
+    margin-right: 31px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(120, 120, 120, 1);
+    width: 100px;
+  }
+}
+.ontaps {
+  background: #ffffff;
+  width: 710px;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.mark_info {
+  width: 710px;
+  background: #ffffff;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 45px;
+  padding-bottom: 40px;
+}
+.mark_info_title {
+  font-size: 32px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #060606;
+  margin-left: 22px;
+  padding-top: 40px;
+}
+.mark_info_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mark_text {
+  font-size: 26px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #969799;
+  margin-left: 54px;
+  margin-top: 10px;
+}
+.mark_info_item {
+  width: 204px;
+  height: 120px;
+  // height: 160px;
+  margin-top: 28px;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mark_img {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.mark_title {
+  font-size: 26px;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #161616;
+  // margin-top: 15px;
+}
+.onActives {
+  background-color: #fadb3a;
+  color: #060606;
+}
+.maps {
+  width: 100%;
+  padding-bottom: 20px;
+  .mapsTop {
+    width: 100%;
+  }
+  .tops {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .topsGao {
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  .icons {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    // transform: translate(-20px,65px)
+    transform: translate(-35px, -60px);
+  }
+}

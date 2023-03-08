@@ -1,0 +1,85 @@
+@import "@styles/theme.scss";
+.userAbout {
+  background: #f7f7f7;
+  height: 100%;
+  padding-bottom: 60px;
+  &-iconBox {
+    width: 160px;
+    height: 160px;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 75px;
+    &-icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 14px;
+    }
+  }
+  &-title {
+    font-size: 32px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: #001118;
+    margin-top: 27px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &-menuBox {
+    width: 702px;
+    background: #ffffff;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 36px;
+    position: relative;
+    &-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 21px;
+      padding-right: 21px;
+      height: 105px;
+      @include border(top, 2px, solid, #f7f7f7);
+      &-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &-image{
+          width: 30px;
+          height: 30px;
+          margin-right: 20px;
+        }
+        &-text {
+          font-size: 30px;
+          font-family: PingFang SC;
+          font-weight: 400;
+          color: #001118;
+        }
+      }
+      &-right {
+        width: 32px;
+        height: 32px;
+      }
+      &-text {
+        font-size: 30px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #959595;
+      }
+    }
+    &-items {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 21px;
+      padding-right: 21px;
+      height: 105px;
+    }
+  }
+  &-bottomBr {
+    height: 160px;
+  }
+}

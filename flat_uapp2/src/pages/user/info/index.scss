@@ -1,0 +1,83 @@
+@import "@styles/theme.scss";
+
+.userInfo {
+  background: #f7f7f7;
+  height: 100%;
+  padding-bottom: 60px;
+  &-menuBox {
+    width: 702px;
+    background: #ffffff;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    &-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 21px;
+      padding-right: 21px;
+      height: 110px;
+      @include border(top, 2px, solid, #f7f7f7);
+      &-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &-icon {
+          width: 41px;
+          height: 41px;
+          margin-right: 20px;
+        }
+        &-titleBox {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          &-title {
+            font-size: 30px;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: #001118;
+            margin-right: 20px;
+          }
+          &-text {
+            font-size: 30px;
+            font-family: Source Han Sans SC;
+            font-weight: 400;
+            color: #232222;
+          }
+        }
+      }
+      &-right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &-text {
+          font-size: 30px;
+          font-family: PingFang SC;
+          font-weight: 400;
+          color: #959595;
+        }
+        &-headImg {
+          width: 90px;
+          height: 90px;
+          border-radius: 90px;
+          overflow: hidden;
+        }
+        &-icon {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+    &-items {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 21px;
+      padding-right: 21px;
+      height: 105px;
+    }
+  }
+}

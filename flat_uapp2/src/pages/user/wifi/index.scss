@@ -1,0 +1,133 @@
+@import "@styles/theme.scss";
+
+.WIFIBox {
+  background: #5866a8;
+  height: 100%;
+  position: relative;
+  &-header {
+    width: 100%;
+    height: 393px;
+    position: relative;
+    &-img {
+      width: 100%;
+      height: 393px;
+    }
+    &-content {
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      // z-index: 10;
+    }
+  }
+  &-contentbox {
+    width: 710px;
+    background: #ffffff;
+    opacity: 1;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 28px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-img {
+      width: 172px;
+      height: 172px;
+    }
+    &-address {
+      width: 428px;
+      font-size: 32px;
+      font-family: PingFang SC;
+      font-weight: bold;
+      color: #000000;
+      opacity: 1;
+      text-align: center;
+      margin-top: 42px;
+    }
+    &-changeBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 124px;
+      height: 48px;
+      border: 1px solid #c7c7c7;
+      opacity: 1;
+      border-radius: 24px;
+      margin-top: 30px;
+      position: relative;
+      &-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 3px;
+      }
+      &-text {
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        color: #747474;
+        opacity: 1;
+      }
+      &-btn{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 9999;
+      }
+    }
+    &-wrapper {
+      width: 670px;
+      background: #fcfcfc;
+      opacity: 1;
+      border-radius: 24px;
+      margin: 0 auto;
+      margin-top: 66px;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 36px;
+      padding-bottom: 30px;
+      &-title {
+        font-size: 30px;
+        font-family: PingFang SC;
+        font-weight: normal;
+        color: #747474;
+        opacity: 1;
+      }
+      &-titles {
+        margin-top: 74px;
+      }
+      &-text {
+        font-size: 36px;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #000000;
+        opacity: 1;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      &-btn {
+        width: 150px;
+        height: 48px;
+        border: 1px solid #c7c7c7;
+        opacity: 1;
+        border-radius: 24px;
+        font-size: 24px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        line-height: 48px;
+        color: #747474;
+        opacity: 1;
+        text-align: center;
+      }
+    }
+  }
+}

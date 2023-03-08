@@ -1,0 +1,15 @@
+.checkboxContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+.checkboxContent_text {
+  font-size: 24px;
+  // font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #737576;
+}
+.checkboxContent_color {
+  color: #0a75e8;
+}

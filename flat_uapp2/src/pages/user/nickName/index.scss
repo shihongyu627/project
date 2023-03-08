@@ -1,0 +1,21 @@
+.nickNameEdit {
+  flex-direction: column;
+  width: 100%;
+  opacity: 1;
+  height: 100%;
+  background: #f9f9f9;
+  &-header {
+    height: 160px;
+  }
+  &-box {
+    width: 695px;
+    background: #ffffff;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 20px;
+    &-border {
+      border: 0;
+      border-color: #fff;
+    }
+  }
+}
